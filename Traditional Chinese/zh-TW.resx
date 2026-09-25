@@ -600,11 +600,11 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>{ACTOR} takes a bite of the {USED}.</comment>
 </data>
 <data name="Chat.DrinkSelf" xml:space="preserve">
-  <value>你從 {USED} 喝了點。</value>
+  <value>你喝了點 {USED}。</value>
   <comment>You drink from the {USED}.</comment>
 </data>
 <data name="Chat.DrinkOther" xml:space="preserve">
-  <value>{ACTOR} 從 {USED} 喝了點。</value>
+  <value>{ACTOR} 喝了點 {USED}。</value>
   <comment>{ACTOR} drinks from the {USED}.</comment>
 </data>
 <data name="Chat.Swallow" xml:space="preserve">
@@ -1004,171 +1004,171 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>{ACTOR} begins welding plating over the hole.</comment>
 </data>
 <data name="Chat.HoleRepairDone" xml:space="preserve">
-  <value>{ACTOR} welds new plating over the hole.</value>
+  <value>{ACTOR} 用新鐵板焊接上了破洞。</value>
   <comment>{ACTOR} welds new plating over the hole.</comment>
 </data>
 <data name="Chat.SurgeryBegin" xml:space="preserve">
-  <value>{ACTOR} begins {OP} on {TARGET}.</value>
+  <value>{ACTOR} 開始對 {TARGET} 執行 {OP}。</value>
   <comment>{ACTOR} begins {OP} on {TARGET}.</comment>
 </data>
 <data name="Chat.SurgerySuccess" xml:space="preserve">
-  <value>{ACTOR} completes {OP}.</value>
+  <value>{ACTOR} 完成了 {OP}。</value>
   <comment>{ACTOR} completes {OP}.</comment>
 </data>
 <data name="Chat.SurgeryFail" xml:space="preserve">
-  <value>{ACTOR} slips, {OP} fails!</value>
+  <value>{ACTOR} 手滑了，{OP} 失敗了!</value>
   <comment>{ACTOR} slips, {OP} fails!</comment>
 </data>
 <data name="Chat.SurgeryPainFail" xml:space="preserve">
-  <value>{TARGET} flinches in pain, {OP} fails!</value>
+  <value>{TARGET} 痛得亂動，{OP} 失敗了!</value>
   <comment>{TARGET} flinches in pain, {OP} fails!</comment>
 </data>
 <data name="Chat.SurgeryRefused" xml:space="preserve">
-  <value>{ACTOR} finds nothing left to do, {OP} is abandoned.</value>
+  <value>{ACTOR} 無事可做了，放棄執行 {OP}。</value>
   <comment>{ACTOR} finds nothing left to do, {OP} is abandoned.</comment>
 </data>
 <data name="Chat.HackOff" xml:space="preserve">
-  <value>{TARGET}'s limb is hacked off messily!</value>
+  <value>{TARGET} 的肢體被血淋淋地砍了下來!</value>
   <comment>{TARGET}'s limb is hacked off messily!</comment>
 </data>
 <data name="Chat.BulletImpact" xml:space="preserve">
-  <value>{TARGET} is hit in the {ZONE}.</value>
+  <value>{TARGET} 的 {ZONE} 被擊中了。</value>
   <comment>{TARGET} is hit in the {ZONE}.</comment>
 </data>
 <data name="Chat.PointGround" xml:space="preserve">
-  <value>{ACTOR} points to the ground.</value>
+  <value>{ACTOR} 指向地面。</value>
   <comment>{ACTOR} points to the ground.</comment>
 </data>
 <data name="Chat.PointTarget" xml:space="preserve">
-  <value>{ACTOR} points to the {TARGET}.</value>
+  <value>{ACTOR} 指向 {TARGET}。</value>
   <comment>{ACTOR} points to the {TARGET}.</comment>
 </data>
 <data name="Chat.Someone" xml:space="preserve">
-  <value>Someone</value>
+  <value>某人</value>
   <comment>Someone</comment>
 </data>
 <data name="Chat.LocalTab" xml:space="preserve">
-  <value>LOCAL</value>
+  <value>附近</value>
   <comment>LOCAL</comment>
 </data>
 <data name="Chat.GlobalTab" xml:space="preserve">
-  <value>GLOBAL</value>
+  <value>全體</value>
   <comment>GLOBAL</comment>
 </data>
 <data name="Chat.GlobalPrefix" xml:space="preserve">
-  <value>[G] {NAME}: {TEXT}</value>
+  <value>[全] {NAME}: {TEXT}</value>
   <comment>[G] {NAME}: {TEXT}</comment>
 </data>
 <data name="Chat.SaysOpen" xml:space="preserve">
-  <value>{NAME} says "{TEXT}"</value>
+  <value>{NAME} 說:「{TEXT}」</value>
   <comment>{NAME} says "{TEXT}"</comment>
 </data>
 <data name="Chat.ShoutsOpen" xml:space="preserve">
-  <value>{NAME} shouts "{TEXT}"</value>
+  <value>{NAME} 吼道:「{TEXT}」</value>
   <comment>{NAME} shouts "{TEXT}"</comment>
 </data>
 <data name="Chat.WhispersOpen" xml:space="preserve">
-  <value>{NAME} whispers "{TEXT}"</value>
+  <value>{NAME} 細語: 「{TEXT}」</value>
   <comment>{NAME} whispers "{TEXT}"</comment>
 </data>
 <data name="Chat.UnheardSuffix" xml:space="preserve">
-  <value> talks but you cannot hear them.</value>
+  <value>說了什麼但你聽不到。</value>
   <comment> talks but you cannot hear them.</comment>
 </data>
 <data name="Chat.EmoteHelpPrefix" xml:space="preserve">
-  <value>Available emotes, say *emote to use one:</value>
+  <value>可用表情，用 *emote 來使用:</value>
   <comment>Available emotes, say *emote to use one:</comment>
 </data>
 <data name="Chat.EmoteUnknownSuffix" xml:space="preserve">
-  <value>'{KEY}' emote does not exist. Say *help for a list.</value>
+  <value>'{KEY}' 表情不存在。輸入 *help 取得清單。</value>
   <comment>'{KEY}' emote does not exist. Say *help for a list.</comment>
 </data>
 <data name="HoverVerbLabels.Ignite" xml:space="preserve">
-  <value>light</value>
+  <value>點燃</value>
   <comment>light</comment>
 </data>
 <data name="HoverVerbLabels.Weld" xml:space="preserve">
-  <value>weld</value>
+  <value>焊接</value>
   <comment>weld</comment>
 </data>
 <data name="HoverVerbLabels.StorageOpenCloseClose" xml:space="preserve">
-  <value>close storage</value>
+  <value>關閉儲藏空間</value>
   <comment>close storage</comment>
 </data>
 <data name="HoverVerbLabels.StorageOpenCloseOpen" xml:space="preserve">
-  <value>open storage</value>
+  <value>打開儲藏空間</value>
   <comment>open storage</comment>
 </data>
 <data name="HoverVerbLabels.PickUp" xml:space="preserve">
-  <value>pick up</value>
+  <value>撿起</value>
   <comment>pick up</comment>
 </data>
 <data name="HoverVerbLabels.LightBulbRemove" xml:space="preserve">
-  <value>remove bulb</value>
+  <value>移除燈泡</value>
   <comment>remove bulb</comment>
 </data>
 <data name="HoverVerbLabels.LightBulbInsert" xml:space="preserve">
-  <value>insert bulb</value>
+  <value>放入燈泡</value>
   <comment>insert bulb</comment>
 </data>
 <data name="HoverVerbLabels.LinkPrimeRemove" xml:space="preserve">
-  <value>remove linking</value>
+  <value>移除連結</value>
   <comment>remove linking</comment>
 </data>
 <data name="HoverVerbLabels.LinkPrimeSetup" xml:space="preserve">
-  <value>set up linking</value>
+  <value>設定連結</value>
   <comment>set up linking</comment>
 </data>
 <data name="HoverVerbLabels.ReagentDraw" xml:space="preserve">
-  <value>draw</value>
+  <value>抽取</value>
   <comment>draw</comment>
 </data>
 <data name="HoverVerbLabels.ReagentInject" xml:space="preserve">
-  <value>inject</value>
+  <value>注入</value>
   <comment>inject</comment>
 </data>
 <data name="HoverVerbLabels.ReagentFill" xml:space="preserve">
-  <value>fill</value>
+  <value>裝填</value>
   <comment>fill</comment>
 </data>
 <data name="HoverVerbLabels.WaterFill" xml:space="preserve">
-  <value>fill</value>
+  <value>裝水</value>
   <comment>fill</comment>
 </data>
 <data name="HoverVerbLabels.TankRefill" xml:space="preserve">
-  <value>refill</value>
+  <value>裝填</value>
   <comment>refill</comment>
 </data>
 <data name="HoverVerbLabels.ReagentPour" xml:space="preserve">
-  <value>pour</value>
+  <value>倒入</value>
   <comment>pour</comment>
 </data>
 <data name="HoverVerbLabels.HealthScan" xml:space="preserve">
-  <value>scan</value>
+  <value>掃描</value>
   <comment>scan</comment>
 </data>
 <data name="HoverVerbLabels.BodyScanWindow" xml:space="preserve">
-  <value>scan</value>
+  <value>掃描</value>
   <comment>scan</comment>
 </data>
 <data name="HoverVerbLabels.SleeperWindow" xml:space="preserve">
-  <value>operate</value>
+  <value>執行</value>
   <comment>operate</comment>
 </data>
 <data name="HoverVerbLabels.PodLoad" xml:space="preserve">
-  <value>put in</value>
+  <value>放入</value>
   <comment>put in</comment>
 </data>
 <data name="HoverVerbLabels.MedicalTreat" xml:space="preserve">
-  <value>treat</value>
+  <value>治療</value>
   <comment>treat</comment>
 </data>
 <data name="HoverVerbLabels.Suture" xml:space="preserve">
-  <value>suture</value>
+  <value>縫合</value>
   <comment>suture</comment>
 </data>
 <data name="HoverVerbLabels.Defib" xml:space="preserve">
-  <value>defib</value>
+  <value>去顫</value>
   <comment>defib</comment>
 </data>
 <data name="HoverVerbLabels.Cpr" xml:space="preserve">
@@ -1176,451 +1176,451 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>cpr</comment>
 </data>
 <data name="HoverVerbLabels.Shake" xml:space="preserve">
-  <value>shake</value>
+  <value>搖晃</value>
   <comment>shake</comment>
 </data>
 <data name="HoverVerbLabels.Feed" xml:space="preserve">
-  <value>feed</value>
+  <value>餵食</value>
   <comment>feed</comment>
 </data>
 <data name="HoverVerbLabels.FeedTakePill" xml:space="preserve">
-  <value>take pill</value>
+  <value>吃藥</value>
   <comment>take pill</comment>
 </data>
 <data name="HoverVerbLabels.MagazineLoad" xml:space="preserve">
-  <value>load</value>
+  <value>裝彈</value>
   <comment>load</comment>
 </data>
 <data name="HoverVerbLabels.LauncherLoad" xml:space="preserve">
-  <value>load</value>
+  <value>裝彈</value>
   <comment>load</comment>
 </data>
 <data name="HoverVerbLabels.AttachmentAttach" xml:space="preserve">
-  <value>attach</value>
+  <value>裝上</value>
   <comment>attach</comment>
 </data>
 <data name="HoverVerbLabels.HandfulMerge" xml:space="preserve">
-  <value>combine</value>
+  <value>結合</value>
   <comment>combine</comment>
 </data>
 <data name="HoverVerbLabels.StackCombine" xml:space="preserve">
-  <value>combine</value>
+  <value>結合</value>
   <comment>combine</comment>
 </data>
 <data name="HoverVerbLabels.StackTakeOne" xml:space="preserve">
-  <value>take one</value>
+  <value>拿一個</value>
   <comment>take one</comment>
 </data>
 <data name="HoverVerbLabels.AttachAccessory" xml:space="preserve">
-  <value>attach</value>
+  <value>裝上</value>
   <comment>attach</comment>
 </data>
 <data name="HoverVerbLabels.StashIntoOpenStorage" xml:space="preserve">
-  <value>insert</value>
+  <value>裝入</value>
   <comment>insert</comment>
 </data>
 <data name="HoverVerbLabels.PlaceAtContainerTile" xml:space="preserve">
-  <value>place</value>
+  <value>放</value>
   <comment>place</comment>
 </data>
 <data name="HoverVerbLabels.PlaceAtTile" xml:space="preserve">
-  <value>drop</value>
+  <value>落下</value>
   <comment>drop</comment>
 </data>
 <data name="HoverVerbLabels.PlaceOnSurface" xml:space="preserve">
-  <value>place</value>
+  <value>放</value>
   <comment>place</comment>
 </data>
 <data name="HoverVerbLabels.GunUnload" xml:space="preserve">
-  <value>unload</value>
+  <value>退彈</value>
   <comment>unload</comment>
 </data>
 <data name="HoverVerbLabels.GunSafety" xml:space="preserve">
-  <value>safety</value>
+  <value>保險</value>
   <comment>safety</comment>
 </data>
 <data name="HoverVerbLabels.MagazinePull" xml:space="preserve">
-  <value>take rounds</value>
+  <value>取出子彈</value>
   <comment>take rounds</comment>
 </data>
 <data name="HoverVerbLabels.Roll" xml:space="preserve">
-  <value>roll</value>
+  <value>翻滾</value>
   <comment>roll</comment>
 </data>
 <data name="HoverVerbLabels.RollFire" xml:space="preserve">
-  <value>roll out fire</value>
+  <value>翻滾滅火</value>
   <comment>roll out fire</comment>
 </data>
 <data name="HoverVerbLabels.Climb" xml:space="preserve">
-  <value>climb</value>
+  <value>爬行</value>
   <comment>climb</comment>
 </data>
 <data name="HoverVerbLabels.LadderClimb" xml:space="preserve">
-  <value>climb ladder</value>
+  <value>爬梯子</value>
   <comment>climb ladder</comment>
 </data>
 <data name="HoverVerbLabels.RotateClockwise" xml:space="preserve">
-  <value>rotate clockwise</value>
+  <value>順時針旋轉</value>
   <comment>rotate clockwise</comment>
 </data>
 <data name="HoverVerbLabels.RotateCounterClockwise" xml:space="preserve">
-  <value>rotate counter-clockwise</value>
+  <value>逆時針旋轉</value>
   <comment>rotate counter-clockwise</comment>
 </data>
 <data name="HoverVerbLabels.Buckle" xml:space="preserve">
-  <value>buckle</value>
+  <value>扣住</value>
   <comment>buckle</comment>
 </data>
 <data name="HoverVerbLabels.Unbuckle" xml:space="preserve">
-  <value>unbuckle</value>
+  <value>解扣</value>
   <comment>unbuckle</comment>
 </data>
 <data name="HoverVerbLabels.AnesthesiaTankConnect" xml:space="preserve">
-  <value>connect tank</value>
+  <value>連結罐子</value>
   <comment>connect tank</comment>
 </data>
 <data name="HoverVerbLabels.AnesthesiaTankRemove" xml:space="preserve">
-  <value>remove tank</value>
+  <value>移除罐子連結</value>
   <comment>remove tank</comment>
 </data>
 <data name="HoverVerbLabels.BedDeployOnMob" xml:space="preserve">
-  <value>deploy bed</value>
+  <value>放置床</value>
   <comment>deploy bed</comment>
 </data>
 <data name="HoverVerbLabels.BedFold" xml:space="preserve">
-  <value>fold up</value>
+  <value>折疊</value>
   <comment>fold up</comment>
 </data>
 <data name="HoverVerbLabels.SurgeryOperate" xml:space="preserve">
-  <value>operate</value>
+  <value>執行手術</value>
   <comment>operate</comment>
 </data>
 <data name="HoverVerbLabels.Melee" xml:space="preserve">
-  <value>attack</value>
+  <value>攻擊</value>
   <comment>attack</comment>
 </data>
 <data name="HoverVerbLabels.GlassKnock" xml:space="preserve">
-  <value>knock</value>
+  <value>敲</value>
   <comment>knock</comment>
 </data>
 <data name="HoverVerbLabels.Disarm" xml:space="preserve">
-  <value>disarm</value>
+  <value>繳械</value>
   <comment>disarm</comment>
 </data>
 <data name="HoverVerbLabels.Pull" xml:space="preserve">
-  <value>pull</value>
+  <value>拉</value>
   <comment>pull</comment>
 </data>
 <data name="HoverVerbLabels.EmbedDig" xml:space="preserve">
-  <value>dig out</value>
+  <value>挖除</value>
   <comment>dig out</comment>
 </data>
 <data name="HoverVerbLabels.EmbedYank" xml:space="preserve">
-  <value>yank out</value>
+  <value>拔出</value>
   <comment>yank out</comment>
 </data>
 <data name="HoverVerbLabels.RemoveSplint" xml:space="preserve">
-  <value>remove splint</value>
+  <value>拿掉夾板</value>
   <comment>remove splint</comment>
 </data>
 <data name="HoverVerbLabels.TransfusionAttach" xml:space="preserve">
-  <value>attach transfusion</value>
+  <value>接上輸血包</value>
   <comment>attach transfusion</comment>
 </data>
 <data name="HoverVerbLabels.TransfusionDrag" xml:space="preserve">
-  <value>attach transfusion</value>
+  <value>接上輸血包</value>
   <comment>attach transfusion</comment>
 </data>
 <data name="HoverVerbLabels.TransfusionMode" xml:space="preserve">
-  <value>switch mode</value>
+  <value>切換模式</value>
   <comment>switch mode</comment>
 </data>
 <data name="HoverVerbLabels.ApcCoverPryOpen" xml:space="preserve">
-  <value>pry open</value>
+  <value>撬開</value>
   <comment>pry open</comment>
 </data>
 <data name="HoverVerbLabels.ApcCoverCloseCover" xml:space="preserve">
-  <value>close cover</value>
+  <value>蓋上蓋子</value>
   <comment>close cover</comment>
 </data>
 <data name="HoverVerbLabels.ApcScrewExposeWires" xml:space="preserve">
-  <value>expose wires</value>
+  <value>露出電線</value>
   <comment>expose wires</comment>
 </data>
 <data name="HoverVerbLabels.ApcScrewClosePanel" xml:space="preserve">
-  <value>close panel</value>
+  <value>蓋上面板</value>
   <comment>close panel</comment>
 </data>
 <data name="HoverVerbLabels.ApcCellIn" xml:space="preserve">
-  <value>insert cell</value>
+  <value>放入電池</value>
   <comment>insert cell</comment>
 </data>
 <data name="HoverVerbLabels.ApcCellOut" xml:space="preserve">
-  <value>remove cell</value>
+  <value>移除電池</value>
   <comment>remove cell</comment>
 </data>
 <data name="HoverVerbLabels.RechargerIn" xml:space="preserve">
-  <value>insert</value>
+  <value>放入</value>
   <comment>insert</comment>
 </data>
 <data name="HoverVerbLabels.RechargerEject" xml:space="preserve">
-  <value>eject</value>
+  <value>彈出</value>
   <comment>eject</comment>
 </data>
 <data name="HoverVerbLabels.ApcWindow" xml:space="preserve">
-  <value>controls</value>
+  <value>操作</value>
   <comment>controls</comment>
 </data>
 <data name="HoverVerbLabels.ApcWires" xml:space="preserve">
-  <value>wires</value>
+  <value>配線</value>
   <comment>wires</comment>
 </data>
 <data name="HoverVerbLabels.AmmoBoxTakeHandful" xml:space="preserve">
-  <value>take handful</value>
+  <value>抓一把</value>
   <comment>take handful</comment>
 </data>
 <data name="HoverVerbLabels.AmmoBoxTakeMagazine" xml:space="preserve">
-  <value>take magazine</value>
+  <value>拿彈匣</value>
   <comment>take magazine</comment>
 </data>
 <data name="HoverVerbLabels.AmmoBoxFill" xml:space="preserve">
-  <value>refill magazine</value>
+  <value>裝填彈匣</value>
   <comment>refill magazine</comment>
 </data>
 <data name="HoverVerbLabels.AmmoBoxCollect" xml:space="preserve">
-  <value>pick up</value>
+  <value>撿起</value>
   <comment>pick up</comment>
 </data>
 <data name="HoverVerbLabels.DoorControl" xml:space="preserve">
-  <value>press</value>
+  <value>按</value>
   <comment>press</comment>
 </data>
 <data name="HoverVerbLabels.DoorPryShut" xml:space="preserve">
-  <value>pry shut</value>
+  <value>撬閉</value>
   <comment>pry shut</comment>
 </data>
 <data name="HoverVerbLabels.DoorPryOpen" xml:space="preserve">
-  <value>pry open</value>
+  <value>撬開</value>
   <comment>pry open</comment>
 </data>
 <data name="HoverVerbLabels.Deconstruct" xml:space="preserve">
-  <value>deconstruct</value>
+  <value>拆除</value>
   <comment>deconstruct</comment>
 </data>
 <data name="HoverVerbLabels.Plant" xml:space="preserve">
-  <value>plant charge</value>
+  <value>安裝炸彈</value>
   <comment>plant charge</comment>
 </data>
 <data name="HoverVerbLabels.Defuse" xml:space="preserve">
-  <value>defuse</value>
+  <value>解除</value>
   <comment>defuse</comment>
 </data>
 <data name="HoverVerbLabels.Sweep" xml:space="preserve">
-  <value>sweep</value>
+  <value>掃除</value>
   <comment>sweep</comment>
 </data>
 <data name="HoverVerbLabels.AnchorAnchor" xml:space="preserve">
-  <value>anchor</value>
+  <value>固定</value>
   <comment>anchor</comment>
 </data>
 <data name="HoverVerbLabels.AnchorUnanchor" xml:space="preserve">
-  <value>unanchor</value>
+  <value>解除固定</value>
   <comment>unanchor</comment>
 </data>
 <data name="HoverVerbLabels.FuelCellInsert" xml:space="preserve">
-  <value>insert fuel cell</value>
+  <value>放入燃料電池</value>
   <comment>insert fuel cell</comment>
 </data>
 <data name="HoverVerbLabels.FuelCellRemove" xml:space="preserve">
-  <value>remove fuel cell</value>
+  <value>取出燃料電池</value>
   <comment>remove fuel cell</comment>
 </data>
 <data name="HoverVerbLabels.RecyclerCellIn" xml:space="preserve">
-  <value>insert cell</value>
+  <value>放入電池</value>
   <comment>insert cell</comment>
 </data>
 <data name="HoverVerbLabels.RecyclerCellOut" xml:space="preserve">
-  <value>remove cell</value>
+  <value>取出電池</value>
   <comment>remove cell</comment>
 </data>
 <data name="HoverVerbLabels.Repair" xml:space="preserve">
-  <value>repair</value>
+  <value>修理</value>
   <comment>repair</comment>
 </data>
 <data name="HoverVerbLabels.GeneratorToggle" xml:space="preserve">
-  <value>toggle generator</value>
+  <value>開關發電機</value>
   <comment>toggle generator</comment>
 </data>
 <data name="HoverVerbLabels.SmesWindow" xml:space="preserve">
-  <value>controls</value>
+  <value>操作</value>
   <comment>controls</comment>
 </data>
 <data name="HoverVerbLabels.ChemSocketIn" xml:space="preserve">
-  <value>insert</value>
+  <value>放入</value>
   <comment>insert</comment>
 </data>
 <data name="HoverVerbLabels.FridgeStash" xml:space="preserve">
-  <value>stock</value>
+  <value>放入</value>
   <comment>stock</comment>
 </data>
 <data name="HoverVerbLabels.ChemDispenserWindow" xml:space="preserve">
-  <value>controls</value>
+  <value>操作</value>
   <comment>controls</comment>
 </data>
 <data name="HoverVerbLabels.ChemMasterWindow" xml:space="preserve">
-  <value>controls</value>
+  <value>操作</value>
   <comment>controls</comment>
 </data>
 <data name="HoverVerbLabels.SmartFridgeWindow" xml:space="preserve">
-  <value>contents</value>
+  <value>內容物</value>
   <comment>contents</comment>
 </data>
 <data name="HoverVerbLabels.VendorWindow" xml:space="preserve">
-  <value>products</value>
+  <value>商品</value>
   <comment>products</comment>
 </data>
 <data name="HoverVerbLabels.AtmWindow" xml:space="preserve">
-  <value>account</value>
+  <value>帳戶</value>
   <comment>account</comment>
 </data>
 <data name="HoverVerbLabels.AtmDeposit" xml:space="preserve">
-  <value>deposit</value>
+  <value>存錢</value>
   <comment>deposit</comment>
 </data>
 <data name="HoverVerbLabels.SlotMachineInsertCash" xml:space="preserve">
-  <value>insert cash</value>
+  <value>放入現金</value>
   <comment>insert cash</comment>
 </data>
 <data name="HoverVerbLabels.SlotMachineWindow" xml:space="preserve">
-  <value>play</value>
+  <value>拉霸</value>
   <comment>play</comment>
 </data>
 <data name="HoverVerbLabels.RegisterInsertCash" xml:space="preserve">
-  <value>insert cash</value>
+  <value>放入現金</value>
   <comment>insert cash</comment>
 </data>
 <data name="HoverVerbLabels.RegisterWindow" xml:space="preserve">
-  <value>operate</value>
+  <value>操作</value>
   <comment>operate</comment>
 </data>
 <data name="HoverVerbLabels.BioprinterWindow" xml:space="preserve">
-  <value>print limbs</value>
+  <value>列印肢體</value>
   <comment>print limbs</comment>
 </data>
 <data name="HoverVerbLabels.TrolleyWindowTake" xml:space="preserve">
-  <value>take</value>
+  <value>拿取</value>
   <comment>take</comment>
 </data>
 <data name="HoverVerbLabels.TrolleyWindowOpen" xml:space="preserve">
-  <value>open trolley</value>
+  <value>打開手推車</value>
   <comment>open trolley</comment>
 </data>
 <data name="HoverVerbLabels.RosterHandIn" xml:space="preserve">
-  <value>stow</value>
+  <value>儲存</value>
   <comment>stow</comment>
 </data>
 <data name="HoverVerbLabels.RosterWetMop" xml:space="preserve">
-  <value>wet mop</value>
+  <value>拖把沾水</value>
   <comment>wet mop</comment>
 </data>
 <data name="HoverVerbLabels.MopWet" xml:space="preserve">
-  <value>wet mop</value>
+  <value>拖把沾水</value>
   <comment>wet mop</comment>
 </data>
 <data name="HoverVerbLabels.CookInsert" xml:space="preserve">
-  <value>insert</value>
+  <value>放入</value>
   <comment>insert</comment>
 </data>
 <data name="HoverVerbLabels.CookPour" xml:space="preserve">
-  <value>pour</value>
+  <value>倒</value>
   <comment>pour</comment>
 </data>
 <data name="HoverVerbLabels.GibberLoad" xml:space="preserve">
-  <value>load</value>
+  <value>裝入</value>
   <comment>load</comment>
 </data>
 <data name="HoverVerbLabels.ProcessorRun" xml:space="preserve">
-  <value>process</value>
+  <value>處理</value>
   <comment>process</comment>
 </data>
 <data name="HoverVerbLabels.GibberRun" xml:space="preserve">
-  <value>gib</value>
+  <value>碎屍</value>
   <comment>gib</comment>
 </data>
 <data name="HoverVerbLabels.CremaSwitch" xml:space="preserve">
-  <value>activate</value>
+  <value>啟動</value>
   <comment>activate</comment>
 </data>
 <data name="HoverVerbLabels.FloodlightSwitch" xml:space="preserve">
-  <value>flip switch</value>
+  <value>開關</value>
   <comment>flip switch</comment>
 </data>
 <data name="HoverVerbLabels.MicrowaveWindow" xml:space="preserve">
-  <value>controls</value>
+  <value>操作</value>
   <comment>controls</comment>
 </data>
 <data name="HoverVerbLabels.GrinderWindow" xml:space="preserve">
-  <value>controls</value>
+  <value>操作</value>
   <comment>controls</comment>
 </data>
 <data name="HoverVerbLabels.Slice" xml:space="preserve">
-  <value>slice</value>
+  <value>切</value>
   <comment>slice</comment>
 </data>
 <data name="HoverVerbLabels.FoodCraft" xml:space="preserve">
-  <value>make</value>
+  <value>做</value>
   <comment>make</comment>
 </data>
 <data name="HoverVerbLabels.Strip" xml:space="preserve">
-  <value>search</value>
+  <value>搜身</value>
   <comment>search</comment>
 </data>
 <data name="HoverVerbLabels.SentryMagInsert" xml:space="preserve">
-  <value>insert magazine</value>
+  <value>裝入彈匣</value>
   <comment>insert magazine</comment>
 </data>
 <data name="HoverVerbLabels.SentryMagSwap" xml:space="preserve">
-  <value>swap magazine</value>
+  <value>替換彈匣</value>
   <comment>swap magazine</comment>
 </data>
 <data name="HoverVerbLabels.SentryCellInsert" xml:space="preserve">
-  <value>insert power cell</value>
+  <value>裝入電池</value>
   <comment>insert power cell</comment>
 </data>
 <data name="HoverVerbLabels.SentryCellEject" xml:space="preserve">
-  <value>eject power cell</value>
+  <value>彈出電池</value>
   <comment>eject power cell</comment>
 </data>
 <data name="HoverVerbLabels.SentryWindow" xml:space="preserve">
-  <value>open console</value>
+  <value>開啟控制台</value>
   <comment>open console</comment>
 </data>
 <data name="HoverVerbLabels.SentryToggle" xml:space="preserve">
-  <value>toggle power</value>
+  <value>切換開關</value>
   <comment>toggle power</comment>
 </data>
 <data name="HoverVerbLabels.SentryPack" xml:space="preserve">
-  <value>pack up</value>
+  <value>打包</value>
   <comment>pack up</comment>
 </data>
 <data name="HoverVerbLabels.EmitterCellInsert" xml:space="preserve">
-  <value>insert power cell</value>
+  <value>裝入電池</value>
   <comment>insert power cell</comment>
 </data>
 <data name="HoverVerbLabels.EmitterCellSwap" xml:space="preserve">
-  <value>swap power cell</value>
+  <value>替換電池</value>
   <comment>swap power cell</comment>
 </data>
 <data name="HoverVerbLabels.EmitterWindow" xml:space="preserve">
-  <value>open console</value>
+  <value>打開控制台</value>
   <comment>open console</comment>
 </data>
 <data name="HoverVerbLabels.EmitterToggle" xml:space="preserve">
-  <value>toggle power</value>
+  <value>切換開關</value>
   <comment>toggle power</comment>
 </data>
 <data name="HoverVerbLabels.MountedGunMagLoad" xml:space="preserve">
-  <value>load</value>
+  <value>裝載</value>
   <comment>load</comment>
 </data>
 <data name="HoverVerbLabels.MountedGunMagUnload" xml:space="preserve">
@@ -1628,183 +1628,183 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>unload</comment>
 </data>
 <data name="HoverVerbLabels.MountedGunPack" xml:space="preserve">
-  <value>pack up</value>
+  <value>打包</value>
   <comment>pack up</comment>
 </data>
 <data name="HoverVerbLabels.MountedGunMount" xml:space="preserve">
-  <value>mount</value>
+  <value>裝上</value>
   <comment>mount</comment>
 </data>
 <data name="HoverVerbLabels.MountedGunRotate" xml:space="preserve">
-  <value>rotate</value>
+  <value>旋轉</value>
   <comment>rotate</comment>
 </data>
 <data name="HoverVerbLabels.LaptopToggle" xml:space="preserve">
-  <value>toggle power</value>
+  <value>切換開關</value>
   <comment>toggle power</comment>
 </data>
 <data name="HoverVerbLabels.LaptopCellInsert" xml:space="preserve">
-  <value>insert power cell</value>
+  <value>裝上電池</value>
   <comment>insert power cell</comment>
 </data>
 <data name="HoverVerbLabels.LaptopCellSwap" xml:space="preserve">
-  <value>swap power cell</value>
+  <value>替換電池</value>
   <comment>swap power cell</comment>
 </data>
 <data name="HoverVerbLabels.LaptopPry" xml:space="preserve">
-  <value>pry out power cell</value>
+  <value>拔出電池</value>
   <comment>pry out power cell</comment>
 </data>
 <data name="HoverVerbLabels.LaptopLink" xml:space="preserve">
-  <value>link laptop</value>
+  <value>連結筆電</value>
   <comment>link laptop</comment>
 </data>
 <data name="HoverVerbLabels.PortGenFuelInsert" xml:space="preserve">
-  <value>insert fuel can</value>
+  <value>裝入燃料罐</value>
   <comment>insert fuel can</comment>
 </data>
 <data name="HoverVerbLabels.PortGenFuelSwap" xml:space="preserve">
-  <value>swap fuel can</value>
+  <value>替換燃料罐</value>
   <comment>swap fuel can</comment>
 </data>
 <data name="HoverVerbLabels.PortGenTether" xml:space="preserve">
-  <value>run cable</value>
+  <value>鋪設纜線</value>
   <comment>run cable</comment>
 </data>
 <data name="HoverVerbLabels.PortGenCut" xml:space="preserve">
-  <value>cut cables</value>
+  <value>切斷纜線</value>
   <comment>cut cables</comment>
 </data>
 <data name="HoverVerbLabels.PortGenWindow" xml:space="preserve">
-  <value>open</value>
+  <value>打開</value>
   <comment>open</comment>
 </data>
 <data name="HoverVerbLabels.PortGenToggleOn" xml:space="preserve">
-  <value>turn on</value>
+  <value>開啟</value>
   <comment>turn on</comment>
 </data>
 <data name="HoverVerbLabels.PortGenToggleOff" xml:space="preserve">
-  <value>turn off</value>
+  <value>關閉</value>
   <comment>turn off</comment>
 </data>
 <data name="HoverVerbLabels.PortGenApcLink" xml:space="preserve">
-  <value>connect generator</value>
+  <value>連接發電機</value>
   <comment>connect generator</comment>
 </data>
 <data name="HoverVerbLabels.VendorRefillRefill" xml:space="preserve">
-  <value>refill</value>
+  <value>裝填</value>
   <comment>refill</comment>
 </data>
 <data name="HoverVerbLabels.VendorRefillRestock" xml:space="preserve">
-  <value>restock</value>
+  <value>補貨</value>
   <comment>restock</comment>
 </data>
 <data name="HoverVerbLabels.IvLoadLoad" xml:space="preserve">
-  <value>load bag</value>
+  <value>掛上輸液袋</value>
   <comment>load bag</comment>
 </data>
 <data name="HoverVerbLabels.IvLoadUnload" xml:space="preserve">
-  <value>unload bag</value>
+  <value>拿下輸液袋</value>
   <comment>unload bag</comment>
 </data>
 <data name="HoverVerbLabels.ToggleFallback" xml:space="preserve">
-  <value>toggle</value>
+  <value>切換</value>
   <comment>toggle</comment>
 </data>
 <data name="HoverVerbLabels.FoldFallback" xml:space="preserve">
-  <value>fold</value>
+  <value>折疊</value>
   <comment>fold</comment>
 </data>
 <data name="HoverVerbLabels.UnfoldFallback" xml:space="preserve">
-  <value>unfold</value>
+  <value>展開</value>
   <comment>unfold</comment>
 </data>
 <data name="HoverVerbLabels.UpgradeCombineFallback" xml:space="preserve">
-  <value>combine</value>
+  <value>結合</value>
   <comment>combine</comment>
 </data>
 <data name="HoverVerbLabels.UpgradeGenericFallback" xml:space="preserve">
-  <value>upgrade</value>
+  <value>升級</value>
   <comment>upgrade</comment>
 </data>
 <data name="ActivateVerbLabels.Wield" xml:space="preserve">
-  <value>wield</value>
+  <value>握住</value>
   <comment>wield</comment>
 </data>
 <data name="ActivateVerbLabels.Unwield" xml:space="preserve">
-  <value>unwield</value>
+  <value>放手</value>
   <comment>unwield</comment>
 </data>
 <data name="ActivateVerbLabels.Toggle" xml:space="preserve">
-  <value>toggle</value>
+  <value>切換</value>
   <comment>toggle</comment>
 </data>
 <data name="ActivateVerbLabels.Swallow" xml:space="preserve">
-  <value>swallow</value>
+  <value>吞下</value>
   <comment>swallow</comment>
 </data>
 <data name="ActivateVerbLabels.Inject" xml:space="preserve">
-  <value>inject</value>
+  <value>注射</value>
   <comment>inject</comment>
 </data>
 <data name="ActivateVerbLabels.Scan" xml:space="preserve">
-  <value>scan</value>
+  <value>掃描</value>
   <comment>scan</comment>
 </data>
 <data name="ActivateVerbLabels.Deploy" xml:space="preserve">
-  <value>deploy</value>
+  <value>佈署</value>
   <comment>deploy</comment>
 </data>
 <data name="ActivateVerbLabels.TransfusionMode" xml:space="preserve">
-  <value>switch mode</value>
+  <value>切換模式</value>
   <comment>switch mode</comment>
 </data>
 <data name="ActivateVerbLabels.Eat" xml:space="preserve">
-  <value>eat</value>
+  <value>吃</value>
   <comment>eat</comment>
 </data>
 <data name="ActivateVerbLabels.Drink" xml:space="preserve">
-  <value>drink</value>
+  <value>喝</value>
   <comment>drink</comment>
 </data>
 <data name="ActivateVerbLabels.ReagentMode" xml:space="preserve">
-  <value>switch mode</value>
+  <value>切換模式</value>
   <comment>switch mode</comment>
 </data>
 <data name="ActivateVerbLabels.Construct" xml:space="preserve">
-  <value>construct</value>
+  <value>建造</value>
   <comment>construct</comment>
 </data>
 <data name="ActivateVerbLabels.Analyze" xml:space="preserve">
-  <value>analyze</value>
+  <value>分析</value>
   <comment>analyze</comment>
 </data>
 <data name="ActivateVerbLabels.Track" xml:space="preserve">
-  <value>track</value>
+  <value>追蹤</value>
   <comment>track</comment>
 </data>
 <data name="ActivateVerbLabels.Look" xml:space="preserve">
-  <value>look through</value>
+  <value>窺看</value>
   <comment>look through</comment>
 </data>
 <data name="ActivateVerbLabels.Label" xml:space="preserve">
-  <value>set label</value>
+  <value>設置標籤</value>
   <comment>set label</comment>
 </data>
 <data name="ActivateVerbLabels.SwitchToInject" xml:space="preserve">
-  <value>switch to inject</value>
+  <value>切換至注入</value>
   <comment>switch to inject</comment>
 </data>
 <data name="ActivateVerbLabels.SwitchToDraw" xml:space="preserve">
-  <value>switch to draw</value>
+  <value>切換至抽取</value>
   <comment>switch to draw</comment>
 </data>
 <data name="ActivateVerbLabels.StopLooking" xml:space="preserve">
-  <value>stop looking</value>
+  <value>停止窺看</value>
   <comment>stop looking</comment>
 </data>
 <data name="ActivateVerbLabels.LookThrough" xml:space="preserve">
-  <value>look through</value>
+  <value>窺看</value>
   <comment>look through</comment>
 </data>
 <data name="HoverName.OpenBracket" xml:space="preserve">
@@ -1816,247 +1816,247 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>]</comment>
 </data>
 <data name="HoverName.DragHintVerb" xml:space="preserve">
-  <value>drag</value>
+  <value>拉</value>
   <comment>drag</comment>
 </data>
 <data name="HoverName.MenuHintVerb" xml:space="preserve">
-  <value>actions</value>
+  <value>動作</value>
   <comment>actions</comment>
 </data>
 <data name="HoverName.UseHintDeconstruct" xml:space="preserve">
-  <value>use {TOOL} to deconstruct</value>
+  <value>用 {TOOL} 拆除</value>
   <comment>use {TOOL} to deconstruct</comment>
 </data>
 <data name="HoverName.UseHintDeconstructTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to deconstruct</value>
+  <value>用 {TOOL} + {TOOL2} 拆除</value>
   <comment>use {TOOL} + {TOOL2} to deconstruct</comment>
 </data>
 <data name="HoverName.UseHintRepair" xml:space="preserve">
-  <value>use {TOOL} to repair</value>
+  <value>用 {TOOL} 維修</value>
   <comment>use {TOOL} to repair</comment>
 </data>
 <data name="HoverName.UseHintRepairTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to repair</value>
+  <value>用 {TOOL} + {TOOL2} 維修</value>
   <comment>use {TOOL} + {TOOL2} to repair</comment>
 </data>
 <data name="HoverName.UseHintBuild" xml:space="preserve">
-  <value>use {TOOL} to build</value>
+  <value>用 {TOOL} 建造</value>
   <comment>use {TOOL} to build</comment>
 </data>
 <data name="HoverName.UseHintBuildTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to build</value>
+  <value>用 {TOOL} + {TOOL2} 建造</value>
   <comment>use {TOOL} + {TOOL2} to build</comment>
 </data>
 <data name="HoverName.UseHintPack" xml:space="preserve">
-  <value>use {TOOL} to pack up</value>
+  <value>用 {TOOL} 打包</value>
   <comment>use {TOOL} to pack up</comment>
 </data>
 <data name="HoverName.UseHintPackTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to pack up</value>
+  <value>用 {TOOL} + {TOOL2} 打包</value>
   <comment>use {TOOL} + {TOOL2} to pack up</comment>
 </data>
 <data name="HoverName.UseHintOpen" xml:space="preserve">
-  <value>use {TOOL} to pry open</value>
+  <value>用 {TOOL} 撬開</value>
   <comment>use {TOOL} to pry open</comment>
 </data>
 <data name="HoverName.UseHintOpenTwo" xml:space="preserve">
-  <value>use {TOOL} or {TOOL2} to pry open</value>
+  <value>用 {TOOL} 或 {TOOL2} 撬開</value>
   <comment>use {TOOL} or {TOOL2} to pry open</comment>
 </data>
 <data name="HoverName.UseHintPryShut" xml:space="preserve">
-  <value>use {TOOL} to pry shut</value>
+  <value>用 {TOOL} 撬閉</value>
   <comment>use {TOOL} to pry shut</comment>
 </data>
 <data name="HoverName.UseHintPryShutTwo" xml:space="preserve">
-  <value>use {TOOL} or {TOOL2} to pry shut</value>
+  <value>用 {TOOL} 或 {TOOL2} 撬閉</value>
   <comment>use {TOOL} or {TOOL2} to pry shut</comment>
 </data>
 <data name="HoverName.UseHintSecure" xml:space="preserve">
-  <value>use {TOOL} to secure</value>
+  <value>用 {TOOL} 加固</value>
   <comment>use {TOOL} to secure</comment>
 </data>
 <data name="HoverName.UseHintSecureTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to secure</value>
+  <value>用 {TOOL} + {TOOL2} 加固</value>
   <comment>use {TOOL} + {TOOL2} to secure</comment>
 </data>
 <data name="HoverName.UseHintConnect" xml:space="preserve">
-  <value>use {TOOL} to connect</value>
+  <value>用 {TOOL} 連接</value>
   <comment>use {TOOL} to connect</comment>
 </data>
 <data name="HoverName.UseHintConnectTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to connect</value>
+  <value>用 {TOOL} + {TOOL2} 連接</value>
   <comment>use {TOOL} + {TOOL2} to connect</comment>
 </data>
 <data name="HoverName.UseHintDisconnect" xml:space="preserve">
-  <value>use {TOOL} to disconnect</value>
+  <value>用 {TOOL} 解除連接</value>
   <comment>use {TOOL} to disconnect</comment>
 </data>
 <data name="HoverName.UseHintDisconnectTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to disconnect</value>
+  <value>用 {TOOL} + {TOOL2} 解除連接</value>
   <comment>use {TOOL} + {TOOL2} to disconnect</comment>
 </data>
 <data name="HoverName.UseHintRotate" xml:space="preserve">
-  <value>use {TOOL} to rotate</value>
+  <value>用 {TOOL} 旋轉</value>
   <comment>use {TOOL} to rotate</comment>
 </data>
 <data name="HoverName.UseHintRotateTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to rotate</value>
+  <value>用 {TOOL} + {TOOL2} 旋轉</value>
   <comment>use {TOOL} + {TOOL2} to rotate</comment>
 </data>
 <data name="HoverName.PryOpenFallback" xml:space="preserve">
-  <value>pry open</value>
+  <value>撬開</value>
   <comment>pry open</comment>
 </data>
 <data name="HandSlotClick.Draw" xml:space="preserve">
-  <value>draw </value>
+  <value>抽出</value>
   <comment>draw </comment>
 </data>
 <data name="HandSlotClick.Close" xml:space="preserve">
-  <value>close</value>
+  <value>關閉</value>
   <comment>close</comment>
 </data>
 <data name="HandSlotClick.TearOpen" xml:space="preserve">
-  <value>tear open </value>
+  <value>撕開</value>
   <comment>tear open </comment>
 </data>
 <data name="HandSlotClick.Open" xml:space="preserve">
-  <value>open </value>
+  <value>打開</value>
   <comment>open </comment>
 </data>
 <data name="HandSlotClick.Stash" xml:space="preserve">
-  <value>stash </value>
+  <value>存入</value>
   <comment>stash </comment>
 </data>
 <data name="HandSlotClick.Insert" xml:space="preserve">
-  <value>insert </value>
+  <value>放入</value>
   <comment>insert </comment>
 </data>
 <data name="HandSlotClick.Take" xml:space="preserve">
-  <value>take </value>
+  <value>拿取</value>
   <comment>take </comment>
 </data>
 <data name="HandSlotClick.Put" xml:space="preserve">
-  <value>put </value>
+  <value>放入</value>
   <comment>put </comment>
 </data>
 <data name="HandSlotClick.Release" xml:space="preserve">
-  <value>release</value>
+  <value>放開</value>
   <comment>release</comment>
 </data>
 <data name="InteractClick.OutOfReach" xml:space="preserve">
-  <value>out of reach</value>
+  <value>太遠了</value>
   <comment>out of reach</comment>
 </data>
 <data name="InteractClick.RoundsDoNotMatch" xml:space="preserve">
-  <value>the rounds do not match</value>
+  <value>子彈不符</value>
   <comment>the rounds do not match</comment>
 </data>
 <data name="InteractClick.MopIsDry" xml:space="preserve">
-  <value>the mop is dry</value>
+  <value>拖把是乾的</value>
   <comment>the mop is dry</comment>
 </data>
 <data name="InteractClick.NeedsMaterial" xml:space="preserve">
-  <value>needs {COUNT} {ITEM}</value>
+  <value>需要 {COUNT} 個 {ITEM}</value>
   <comment>needs {COUNT} {ITEM}</comment>
 </data>
 <data name="InteractClick.NeedsLitWelder" xml:space="preserve">
-  <value>needs a lit welder</value>
+  <value>需要點燃焊槍</value>
   <comment>needs a lit welder</comment>
 </data>
 <data name="InteractClick.ChargeWillNotStick" xml:space="preserve">
-  <value>the charge will not stick</value>
+  <value>炸藥無法附著</value>
   <comment>the charge will not stick</comment>
 </data>
 <data name="LabelAim.WontStick" xml:space="preserve">
-  <value>the label won't stick to that</value>
+  <value>標籤無法附著</value>
   <comment>the label won't stick to that</comment>
 </data>
 <data name="LabelAim.OutOfReach" xml:space="preserve">
-  <value>out of reach</value>
+  <value>太遠了</value>
   <comment>out of reach</comment>
 </data>
 <data name="DenyText.DoesNotFit" xml:space="preserve">
-  <value>the {ITEM} doesn't fit</value>
+  <value>{ITEM} 放不下</value>
   <comment>the {ITEM} doesn't fit</comment>
 </data>
 <data name="DoorPryHint.NoPowerOpen" xml:space="preserve">
-  <value>no power use {ITEM} to pry open</value>
+  <value>沒電了，用 {ITEM} 撬開</value>
   <comment>no power use {ITEM} to pry open</comment>
 </data>
 <data name="DoorPryHint.NoPowerShut" xml:space="preserve">
-  <value>no power use {ITEM} to pry shut</value>
+  <value>沒電了，用 {ITEM} 撬閉</value>
   <comment>no power use {ITEM} to pry shut</comment>
 </data>
 <data name="LadderSealHint.ExitBlocked" xml:space="preserve">
-  <value>exit blocked use {ITEM} to open</value>
+  <value>出口關閉，用 {ITEM} 打開</value>
   <comment>exit blocked use {ITEM} to open</comment>
 </data>
 <data name="LadderStanceHint.Standing" xml:space="preserve">
-  <value>you need to be standing</value>
+  <value>你需要站著</value>
   <comment>you need to be standing</comment>
 </data>
 <data name="LadderStanceHint.Buckled" xml:space="preserve">
-  <value>unbuckle first</value>
+  <value>先解扣</value>
   <comment>unbuckle first</comment>
 </data>
 <data name="FireInputDriver.DualHandedHoldDeny" xml:space="preserve">
-  <value>requires dual-handed hold</value>
+  <value>需要雙手握持</value>
   <comment>requires dual-handed hold</comment>
 </data>
 <data name="FireInputDriver.ToggleDualHandsHint" xml:space="preserve">
-  <value>press {KEY} to toggle dual-hands</value>
+  <value>按 {KEY} 來雙手握持</value>
   <comment>press {KEY} to toggle dual-hands</comment>
 </data>
 <data name="ConstructionPlacement.RotateHint" xml:space="preserve">
-  <value>press {KEY} to rotate</value>
+  <value>按 {KEY} 旋轉</value>
   <comment>press {KEY} to rotate</comment>
 </data>
 <data name="LadderRadial.Cancel" xml:space="preserve">
-  <value>CANCEL</value>
+  <value>取消</value>
   <comment>CANCEL</comment>
 </data>
 <data name="BodyZoneNames.Chest" xml:space="preserve">
-  <value>chest</value>
+  <value>胸部</value>
   <comment>chest</comment>
 </data>
 <data name="BodyZoneNames.Head" xml:space="preserve">
-  <value>head</value>
+  <value>頭部</value>
   <comment>head</comment>
 </data>
 <data name="BodyZoneNames.Groin" xml:space="preserve">
-  <value>groin</value>
+  <value>胯下</value>
   <comment>groin</comment>
 </data>
 <data name="BodyZoneNames.LeftArm" xml:space="preserve">
-  <value>left arm</value>
+  <value>左臂</value>
   <comment>left arm</comment>
 </data>
 <data name="BodyZoneNames.RightArm" xml:space="preserve">
-  <value>right arm</value>
+  <value>右臂</value>
   <comment>right arm</comment>
 </data>
 <data name="BodyZoneNames.LeftLeg" xml:space="preserve">
-  <value>left leg</value>
+  <value>左腿</value>
   <comment>left leg</comment>
 </data>
 <data name="BodyZoneNames.RightLeg" xml:space="preserve">
-  <value>right leg</value>
+  <value>右腿</value>
   <comment>right leg</comment>
 </data>
 <data name="BodyZoneNames.LeftHand" xml:space="preserve">
-  <value>left hand</value>
+  <value>左手</value>
   <comment>left hand</comment>
 </data>
 <data name="BodyZoneNames.RightHand" xml:space="preserve">
-  <value>right hand</value>
+  <value>右手</value>
   <comment>right hand</comment>
 </data>
 <data name="BodyZoneNames.LeftFoot" xml:space="preserve">
-  <value>left foot</value>
+  <value>左腳</value>
   <comment>left foot</comment>
 </data>
 <data name="BodyZoneNames.RightFoot" xml:space="preserve">
-  <value>right foot</value>
+  <value>右腳</value>
   <comment>right foot</comment>
 </data>
 <data name="BodyZoneNames.Unknown" xml:space="preserve">
@@ -2064,223 +2064,223 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>?</comment>
 </data>
 <data name="BodyZoneNames.Body" xml:space="preserve">
-  <value>body</value>
+  <value>身體</value>
   <comment>body</comment>
 </data>
 <data name="SurgeryStepNames.Incise" xml:space="preserve">
-  <value>incise</value>
+  <value>切開</value>
   <comment>incise</comment>
 </data>
 <data name="SurgeryStepNames.Cauterize" xml:space="preserve">
-  <value>cauterize</value>
+  <value>燒灼</value>
   <comment>cauterize</comment>
 </data>
 <data name="SurgeryStepNames.ClampBleeders" xml:space="preserve">
-  <value>clamp bleeders</value>
+  <value>鉗住血管</value>
   <comment>clamp bleeders</comment>
 </data>
 <data name="SurgeryStepNames.Retract" xml:space="preserve">
-  <value>retract</value>
+  <value>牽開</value>
   <comment>retract</comment>
 </data>
 <data name="SurgeryStepNames.Pinch" xml:space="preserve">
-  <value>pinch</value>
+  <value>夾取</value>
   <comment>pinch</comment>
 </data>
 <data name="SurgeryStepNames.PryTissue" xml:space="preserve">
-  <value>pry the tissue</value>
+  <value>撬開組織</value>
   <comment>pry the tissue</comment>
 </data>
 <data name="SurgeryStepNames.PryBone" xml:space="preserve">
-  <value>pry the bone</value>
+  <value>撬開骨頭</value>
   <comment>pry the bone</comment>
 </data>
 <data name="SurgeryStepNames.SawBone" xml:space="preserve">
-  <value>saw the bone</value>
+  <value>鋸開骨頭</value>
   <comment>saw the bone</comment>
 </data>
 <data name="SurgeryStepNames.MendBone" xml:space="preserve">
-  <value>mend the bone</value>
+  <value>接合骨頭</value>
   <comment>mend the bone</comment>
 </data>
 <data name="SurgeryStepNames.SetBone" xml:space="preserve">
-  <value>set the bone</value>
+  <value>整骨</value>
   <comment>set the bone</comment>
 </data>
 <data name="SurgeryStepNames.MendVessel" xml:space="preserve">
-  <value>mend the vessel</value>
+  <value>接合血管</value>
   <comment>mend the vessel</comment>
 </data>
 <data name="SurgeryStepNames.RepairOrgans" xml:space="preserve">
-  <value>repair organs</value>
+  <value>修復器官</value>
   <comment>repair organs</comment>
 </data>
 <data name="SurgeryStepNames.AttachProsthesis" xml:space="preserve">
-  <value>attach the prosthesis</value>
+  <value>接上義肢</value>
   <comment>attach the prosthesis</comment>
 </data>
 <data name="SurgeryStepNames.Operate" xml:space="preserve">
-  <value>operate</value>
+  <value>手術</value>
   <comment>operate</comment>
 </data>
 <data name="KeyBindingValue.None" xml:space="preserve">
-  <value>None</value>
+  <value>無</value>
   <comment>None</comment>
 </data>
 <data name="Moodlet.Title.Blood" xml:space="preserve">
-  <value>BLOOD</value>
+  <value>血液</value>
   <comment>BLOOD</comment>
 </data>
 <data name="Moodlet.Title.Pain" xml:space="preserve">
-  <value>PAIN</value>
+  <value>疼痛</value>
   <comment>PAIN</comment>
 </data>
 <data name="Moodlet.Title.Thirst.Thirsty" xml:space="preserve">
-  <value>THIRSTY</value>
+  <value>口渴</value>
   <comment>THIRSTY</comment>
 </data>
 <data name="Moodlet.Title.Thirst.Parched" xml:space="preserve">
-  <value>PARCHED</value>
+  <value>乾渴</value>
   <comment>PARCHED</comment>
 </data>
 <data name="Moodlet.Title.Thirst.Dehydrated" xml:space="preserve">
-  <value>DEHYDRATED</value>
+  <value>脫水</value>
   <comment>DEHYDRATED</comment>
 </data>
 <data name="Moodlet.Title.Stuffed" xml:space="preserve">
-  <value>STUFFED</value>
+  <value>吃飽</value>
   <comment>STUFFED</comment>
 </data>
 <data name="Moodlet.Title.Quenched" xml:space="preserve">
-  <value>QUENCHED</value>
+  <value>甘霖</value>
   <comment>QUENCHED</comment>
 </data>
 <data name="Moodlet.Title.Damp.Damp" xml:space="preserve">
-  <value>DAMP</value>
+  <value>有點濕</value>
   <comment>DAMP</comment>
 </data>
 <data name="Moodlet.Title.Damp.Wet" xml:space="preserve">
-  <value>WET</value>
+  <value>濕</value>
   <comment>WET</comment>
 </data>
 <data name="Moodlet.Title.Damp.Soaked" xml:space="preserve">
-  <value>SOAKED</value>
+  <value>濕透</value>
   <comment>SOAKED</comment>
 </data>
 <data name="Moodlet.Title.Damp.Immersed" xml:space="preserve">
-  <value>IMMERSED</value>
+  <value>泡水</value>
   <comment>IMMERSED</comment>
 </data>
 <data name="Moodlet.Title.Bleeding" xml:space="preserve">
-  <value>BLEEDING</value>
+  <value>流血</value>
   <comment>BLEEDING</comment>
 </data>
 <data name="Moodlet.Title.Severed" xml:space="preserve">
-  <value>SEVERED</value>
+  <value>斷肢</value>
   <comment>SEVERED</comment>
 </data>
 <data name="Moodlet.Title.Fracture" xml:space="preserve">
-  <value>FRACTURE</value>
+  <value>骨折</value>
   <comment>FRACTURE</comment>
 </data>
 <data name="Moodlet.Title.Splinted" xml:space="preserve">
-  <value>SPLINTED</value>
+  <value>夾板固定</value>
   <comment>SPLINTED</comment>
 </data>
 <data name="Moodlet.Title.Shrapnel" xml:space="preserve">
-  <value>SHRAPNEL</value>
+  <value>碎片</value>
   <comment>SHRAPNEL</comment>
 </data>
 <data name="Moodlet.Title.Buckled" xml:space="preserve">
-  <value>BUCKLED</value>
+  <value>扣住</value>
   <comment>BUCKLED</comment>
 </data>
 <data name="Moodlet.Title.Burning" xml:space="preserve">
-  <value>BURNING</value>
+  <value>燃燒</value>
   <comment>BURNING</comment>
 </data>
 <data name="Moodlet.Title.Pulling" xml:space="preserve">
-  <value>PULLING</value>
+  <value>拉動</value>
   <comment>PULLING</comment>
 </data>
 <data name="Moodlet.Title.Wielded" xml:space="preserve">
-  <value>WIELDED</value>
+  <value>雙手握持</value>
   <comment>WIELDED</comment>
 </data>
 <data name="Moodlet.Title.Crowded" xml:space="preserve">
-  <value>CROWDED</value>
+  <value>擁擠</value>
   <comment>CROWDED</comment>
 </data>
 <data name="Moodlet.Title.Concussed" xml:space="preserve">
-  <value>CONCUSSED</value>
+  <value>腦震盪</value>
   <comment>CONCUSSED</comment>
 </data>
 <data name="Moodlet.Title.Coughing" xml:space="preserve">
-  <value>COUGHING</value>
+  <value>咳嗽</value>
   <comment>COUGHING</comment>
 </data>
 <data name="Moodlet.Title.Gasping.Gasping" xml:space="preserve">
-  <value>GASPING</value>
+  <value>喘氣</value>
   <comment>GASPING</comment>
 </data>
 <data name="Moodlet.Title.Gasping.Suffocating" xml:space="preserve">
-  <value>SUFFOCATING</value>
+  <value>窒息</value>
   <comment>SUFFOCATING</comment>
 </data>
 <data name="Moodlet.Title.Headache" xml:space="preserve">
-  <value>HEADACHE</value>
+  <value>頭痛</value>
   <comment>HEADACHE</comment>
 </data>
 <data name="Moodlet.Title.Unconscious.Critical" xml:space="preserve">
-  <value>CRITICAL</value>
+  <value>瀕死</value>
   <comment>CRITICAL</comment>
 </data>
 <data name="Moodlet.Title.Unconscious.Unconscious" xml:space="preserve">
-  <value>UNCONSCIOUS</value>
+  <value>無意識</value>
   <comment>UNCONSCIOUS</comment>
 </data>
 <data name="Moodlet.Title.Hunger.Peckish" xml:space="preserve">
-  <value>PECKISH</value>
+  <value>小餓</value>
   <comment>PECKISH</comment>
 </data>
 <data name="Moodlet.Title.Hunger.Hungry" xml:space="preserve">
-  <value>HUNGRY</value>
+  <value>餓</value>
   <comment>HUNGRY</comment>
 </data>
 <data name="Moodlet.Title.Hunger.Starving" xml:space="preserve">
-  <value>STARVING</value>
+  <value>快餓死</value>
   <comment>STARVING</comment>
 </data>
 <data name="Moodlet.Title.Medicated" xml:space="preserve">
-  <value>MEDICATED</value>
+  <value>給藥</value>
   <comment>MEDICATED</comment>
 </data>
 <data name="Moodlet.Title.Painkillers" xml:space="preserve">
-  <value>PAINKILLERS</value>
+  <value>止痛</value>
   <comment>PAINKILLERS</comment>
 </data>
 <data name="Moodlet.Title.Caffeine" xml:space="preserve">
-  <value>CAFFEINE</value>
+  <value>咖啡因</value>
   <comment>CAFFEINE</comment>
 </data>
 <data name="Moodlet.Title.Poisoned" xml:space="preserve">
-  <value>POISONED</value>
+  <value>中毒</value>
   <comment>POISONED</comment>
 </data>
 <data name="Moodlet.Title.Overdose" xml:space="preserve">
-  <value>OVERDOSE</value>
+  <value>過量</value>
   <comment>OVERDOSE</comment>
 </data>
 <data name="Moodlet.Title.Laden" xml:space="preserve">
-  <value>LADEN</value>
+  <value>負重</value>
   <comment>LADEN</comment>
 </data>
 <data name="Moodlet.Title.Searched" xml:space="preserve">
-  <value>SEARCHED</value>
+  <value>被搜身</value>
   <comment>SEARCHED</comment>
 </data>
 <data name="Moodlet.Title.Dead" xml:space="preserve">
-  <value>DEAD</value>
+  <value>死亡</value>
   <comment>DEAD</comment>
 </data>
 <data name="Moodlet.Title.Prone" xml:space="preserve">
@@ -2288,263 +2288,263 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>PRONE</comment>
 </data>
 <data name="Moodlet.Title.Hidden" xml:space="preserve">
-  <value>HIDDEN</value>
+  <value>隱蔽</value>
   <comment>HIDDEN</comment>
 </data>
 <data name="Moodlet.Title.Gestation.Queasy" xml:space="preserve">
-  <value>QUEASY</value>
+  <value>噁心</value>
   <comment>QUEASY</comment>
 </data>
 <data name="Moodlet.Title.Gestation.Nauseous" xml:space="preserve">
-  <value>NAUSEOUS</value>
+  <value>噁心想吐</value>
   <comment>NAUSEOUS</comment>
 </data>
 <data name="Moodlet.Title.Gestation.Moving" xml:space="preserve">
-  <value>SOMETHING IS MOVING</value>
+  <value>它在動</value>
   <comment>SOMETHING IS MOVING</comment>
 </data>
 <data name="Moodlet.Title.Scoped" xml:space="preserve">
-  <value>SCOPED</value>
+  <value>望遠鏡</value>
   <comment>SCOPED</comment>
 </data>
 <data name="Moodlet.Title.HoldingBreath" xml:space="preserve">
-  <value>HOLDING BREATH</value>
+  <value>屏住呼吸</value>
   <comment>HOLDING BREATH</comment>
 </data>
 <data name="Moodlet.Title.Entangled" xml:space="preserve">
-  <value>ENTANGLED</value>
+  <value>糾纏</value>
   <comment>ENTANGLED</comment>
 </data>
 <data name="Moodlet.Title.Face" xml:space="preserve">
-  <value>FACE</value>
+  <value>面向</value>
   <comment>FACE</comment>
 </data>
 <data name="Moodlet.Title.Storm" xml:space="preserve">
-  <value>STORM</value>
+  <value>風暴</value>
   <comment>STORM</comment>
 </data>
 <data name="Moodlet.Title.Dread" xml:space="preserve">
-  <value>DREAD</value>
+  <value>恐懼</value>
   <comment>DREAD</comment>
 </data>
 <data name="Moodlet.Title.Irradiated" xml:space="preserve">
-  <value>IRRADIATED</value>
+  <value>輻射</value>
   <comment>IRRADIATED</comment>
 </data>
 <data name="Moodlet.Title.ShortSighted" xml:space="preserve">
-  <value>SHORT SIGHTED</value>
+  <value>近視</value>
   <comment>SHORT SIGHTED</comment>
 </data>
 <data name="Moodlet.Title.Connection.Bad" xml:space="preserve">
-  <value>BAD CONNECTION</value>
+  <value>爛線</value>
   <comment>BAD CONNECTION</comment>
 </data>
 <data name="Moodlet.Title.Connection.Poor" xml:space="preserve">
-  <value>POOR CONNECTION</value>
+  <value>大爛線</value>
   <comment>POOR CONNECTION</comment>
 </data>
 <data name="Moodlet.Title.Fallback" xml:space="preserve">
-  <value>~MOODLET</value>
+  <value>~狀態效果</value>
   <comment>~MOODLET</comment>
 </data>
 <data name="Moodlet.Flavor.Blood.Giving" xml:space="preserve">
-  <value>Giving blood</value>
+  <value>獻血</value>
   <comment>Giving blood</comment>
 </data>
 <data name="Moodlet.Flavor.Blood.Receiving" xml:space="preserve">
-  <value>Receiving blood</value>
+  <value>輸血</value>
   <comment>Receiving blood</comment>
 </data>
 <data name="Moodlet.Flavor.Blood.Attached" xml:space="preserve">
-  <value>IV attached</value>
+  <value>吊點滴</value>
   <comment>IV attached</comment>
 </data>
 <data name="Moodlet.Flavor.Pain.Mild" xml:space="preserve">
-  <value>In pain</value>
+  <value>痛</value>
   <comment>In pain</comment>
 </data>
 <data name="Moodlet.Flavor.Pain.Moderate" xml:space="preserve">
-  <value>In serious pain</value>
+  <value>很痛</value>
   <comment>In serious pain</comment>
 </data>
 <data name="Moodlet.Flavor.Pain.Severe" xml:space="preserve">
-  <value>In agony</value>
+  <value>生不如死</value>
   <comment>In agony</comment>
 </data>
 <data name="Moodlet.Flavor.Thirst.Thirsty" xml:space="preserve">
-  <value>Thirsty</value>
+  <value>口渴</value>
   <comment>Thirsty</comment>
 </data>
 <data name="Moodlet.Flavor.Thirst.Parched" xml:space="preserve">
-  <value>Parched</value>
+  <value>乾渴</value>
   <comment>Parched</comment>
 </data>
 <data name="Moodlet.Flavor.Thirst.Dehydrated" xml:space="preserve">
-  <value>Dehydrated</value>
+  <value>缺水</value>
   <comment>Dehydrated</comment>
 </data>
 <data name="Moodlet.Flavor.Stuffed" xml:space="preserve">
-  <value>Completely full</value>
+  <value>吃飽了</value>
   <comment>Completely full</comment>
 </data>
 <data name="Moodlet.Flavor.Quenched" xml:space="preserve">
-  <value>Fully hydrated</value>
+  <value>水分充足</value>
   <comment>Fully hydrated</comment>
 </data>
 <data name="Moodlet.Flavor.Bleeding" xml:space="preserve">
-  <value>Blood runs from an open wound</value>
+  <value>傷口流血</value>
   <comment>Blood runs from an open wound</comment>
 </data>
 <data name="Moodlet.Flavor.Severed" xml:space="preserve">
-  <value>Severed limb, gone for good</value>
+  <value>肢體斷了，回不來了</value>
   <comment>Severed limb, gone for good</comment>
 </data>
 <data name="Moodlet.Flavor.Fracture.Splinted" xml:space="preserve">
-  <value>Fractured bone (splinted)</value>
+  <value>骨折 (已上夾板)</value>
   <comment>Fractured bone (splinted)</comment>
 </data>
 <data name="Moodlet.Flavor.Fracture.Plain" xml:space="preserve">
-  <value>Fractured bone</value>
+  <value>骨折</value>
   <comment>Fractured bone</comment>
 </data>
 <data name="Moodlet.Flavor.Splinted" xml:space="preserve">
-  <value>A limb is currently splinted</value>
+  <value>肢體正被夾板夾著</value>
   <comment>A limb is currently splinted</comment>
 </data>
 <data name="Moodlet.Flavor.Shrapnel.Known" xml:space="preserve">
-  <value>Shrapnel lodged in your flesh</value>
+  <value>碎片嵌在你身上</value>
   <comment>Shrapnel lodged in your flesh</comment>
 </data>
 <data name="Moodlet.Flavor.Shrapnel.Unknown" xml:space="preserve">
-  <value>Something is lodged in your flesh</value>
+  <value>有什麼嵌在你身上</value>
   <comment>Something is lodged in your flesh</comment>
 </data>
 <data name="Moodlet.Flavor.Buckled" xml:space="preserve">
-  <value>Buckled in</value>
+  <value>被扣著</value>
   <comment>Buckled in</comment>
 </data>
 <data name="Moodlet.Flavor.Burning.Engulfed" xml:space="preserve">
-  <value>Engulfed in flames</value>
+  <value>火焰焚身</value>
   <comment>Engulfed in flames</comment>
 </data>
 <data name="Moodlet.Flavor.Burning.OnFire" xml:space="preserve">
-  <value>On fire! It burns!</value>
+  <value>燒起來了!修啦!</value>
   <comment>On fire! It burns!</comment>
 </data>
 <data name="Moodlet.Flavor.Pulling" xml:space="preserve">
-  <value>Dragging something</value>
+  <value>拖著什麼</value>
   <comment>Dragging something</comment>
 </data>
 <data name="Moodlet.Flavor.Wielded" xml:space="preserve">
-  <value>Wielding a weapon</value>
+  <value>握持武器</value>
   <comment>Wielding a weapon</comment>
 </data>
 <data name="Moodlet.Flavor.Crowded" xml:space="preserve">
-  <value>Packed in with others</value>
+  <value>摩肩擦踵</value>
   <comment>Packed in with others</comment>
 </data>
 <data name="Moodlet.Flavor.Hunger.Peckish" xml:space="preserve">
-  <value>Could use a bite</value>
+  <value>能吃點什麼</value>
   <comment>Could use a bite</comment>
 </data>
 <data name="Moodlet.Flavor.Hunger.Hungry" xml:space="preserve">
-  <value>Feeling hungry</value>
+  <value>肚子餓了</value>
   <comment>Feeling hungry</comment>
 </data>
 <data name="Moodlet.Flavor.Hunger.Starving" xml:space="preserve">
-  <value>Starving</value>
+  <value>快餓死了</value>
   <comment>Starving</comment>
 </data>
 <data name="Moodlet.Flavor.Concussed.Mild" xml:space="preserve">
-  <value>Head swimming</value>
+  <value>頭暈目眩</value>
   <comment>Head swimming</comment>
 </data>
 <data name="Moodlet.Flavor.Concussed.Moderate" xml:space="preserve">
-  <value>Concussed, ears ringing</value>
+  <value>腦震盪，耳鳴</value>
   <comment>Concussed, ears ringing</comment>
 </data>
 <data name="Moodlet.Flavor.Concussed.Severe" xml:space="preserve">
-  <value>Shellshocked, hearing gone</value>
+  <value>砲彈休克，聽力喪失</value>
   <comment>Shellshocked, hearing gone</comment>
 </data>
 <data name="Moodlet.Flavor.Coughing" xml:space="preserve">
-  <value>Coughing up blood</value>
+  <value>咳血</value>
   <comment>Coughing up blood</comment>
 </data>
 <data name="Moodlet.Flavor.Gasping.Mild" xml:space="preserve">
-  <value>Breath coming short</value>
+  <value>氣短</value>
   <comment>Breath coming short</comment>
 </data>
 <data name="Moodlet.Flavor.Gasping.Moderate" xml:space="preserve">
-  <value>Gasping for air</value>
+  <value>喘不上氣</value>
   <comment>Gasping for air</comment>
 </data>
 <data name="Moodlet.Flavor.Gasping.Severe" xml:space="preserve">
-  <value>Starved of air, going under</value>
+  <value>缺氧，昏迷</value>
   <comment>Starved of air, going under</comment>
 </data>
 <data name="Moodlet.Flavor.Headache.Severe" xml:space="preserve">
-  <value>Splitting headache</value>
+  <value>頭痛欲裂</value>
   <comment>Splitting headache</comment>
 </data>
 <data name="Moodlet.Flavor.Headache.Mild" xml:space="preserve">
-  <value>Pounding headache</value>
+  <value>頭部陣痛</value>
   <comment>Pounding headache</comment>
 </data>
 <data name="Moodlet.Flavor.Unconscious.Critical" xml:space="preserve">
-  <value>Critical, slipping away</value>
+  <value>命危，逐漸死去</value>
   <comment>Critical, slipping away</comment>
 </data>
 <data name="Moodlet.Flavor.Unconscious.OutCold" xml:space="preserve">
-  <value>Out cold</value>
+  <value>昏迷不醒</value>
   <comment>Out cold</comment>
 </data>
 <data name="Moodlet.Flavor.Medicated" xml:space="preserve">
-  <value>Medicine is working through your system</value>
+  <value>藥物正在你體內發揮藥效</value>
   <comment>Medicine is working through your system</comment>
 </data>
 <data name="Moodlet.Flavor.Painkillers" xml:space="preserve">
-  <value>Your pain is dulled</value>
+  <value>疼痛止住了</value>
   <comment>Your pain is dulled</comment>
 </data>
 <data name="Moodlet.Flavor.Caffeine" xml:space="preserve">
-  <value>Caffeine has you wired</value>
+  <value>咖啡因讓你精神亢奮</value>
   <comment>Caffeine has you wired</comment>
 </data>
 <data name="Moodlet.Flavor.Poisoned" xml:space="preserve">
-  <value>Something harmful is in your bloodstream</value>
+  <value>你的血液中有有害物質</value>
   <comment>Something harmful is in your bloodstream</comment>
 </data>
 <data name="Moodlet.Flavor.Overdose" xml:space="preserve">
-  <value>A reagent has reached dangerous levels</value>
+  <value>某種物質超過了危險量</value>
   <comment>A reagent has reached dangerous levels</comment>
 </data>
 <data name="Moodlet.Flavor.Laden" xml:space="preserve">
-  <value>Weighed down by worn gear</value>
+  <value>被裝備拖慢</value>
   <comment>Weighed down by worn gear</comment>
 </data>
 <data name="Moodlet.Flavor.Damp.Mild" xml:space="preserve">
-  <value>You feel a little wet</value>
+  <value>你感覺有點濕</value>
   <comment>You feel a little wet</comment>
 </data>
 <data name="Moodlet.Flavor.Damp.Wet" xml:space="preserve">
-  <value>Wet through, clothes clinging</value>
+  <value>濕透了，衣服貼在身上。</value>
   <comment>Wet through, clothes clinging</comment>
 </data>
 <data name="Moodlet.Flavor.Damp.Soaked" xml:space="preserve">
-  <value>Soaked to the bone</value>
+  <value>變成泡湯雞了</value>
   <comment>Soaked to the bone</comment>
 </data>
 <data name="Moodlet.Flavor.Damp.Immersed" xml:space="preserve">
-  <value>Wading, forced to a heavy walking pace</value>
+  <value>涉水，只能緩慢行走。</value>
   <comment>Wading, forced to a heavy walking pace</comment>
 </data>
 <data name="Moodlet.Flavor.Searched" xml:space="preserve">
-  <value>Someone is going through your gear</value>
+  <value>某人正在搜查你的裝備</value>
   <comment>Someone is going through your gear</comment>
 </data>
 <data name="Moodlet.Flavor.Dead" xml:space="preserve">
-  <value>Cannot be revived</value>
+  <value>無法復活</value>
   <comment>Cannot be revived</comment>
 </data>
 <data name="Moodlet.Flavor.Prone" xml:space="preserve">
@@ -4048,7 +4048,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>unfollow</comment>
 </data>
 <data name="ContextMenu.Row.TogglePower" xml:space="preserve">
-  <value>toggle power</value>
+  <value>切換開關</value>
   <comment>toggle power</comment>
 </data>
 <data name="ContextMenu.Row.Remove" xml:space="preserve">
