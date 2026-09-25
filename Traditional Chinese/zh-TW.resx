@@ -2516,7 +2516,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Something harmful is in your bloodstream</comment>
 </data>
 <data name="Moodlet.Flavor.Overdose" xml:space="preserve">
-  <value>某種物質超過了危險量</value>
+  <value>某種物質超過了危險劑量</value>
   <comment>A reagent has reached dangerous levels</comment>
 </data>
 <data name="Moodlet.Flavor.Laden" xml:space="preserve">
@@ -2544,111 +2544,111 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Someone is going through your gear</comment>
 </data>
 <data name="Moodlet.Flavor.Dead" xml:space="preserve">
-  <value>無法復活</value>
+  <value>不能被救活</value>
   <comment>Cannot be revived</comment>
 </data>
 <data name="Moodlet.Flavor.Prone" xml:space="preserve">
-  <value>Lying low with a braced aim</value>
+  <value>趴低姿態，穩定射擊</value>
   <comment>Lying low with a braced aim</comment>
 </data>
 <data name="Moodlet.Flavor.Hidden.Cover" xml:space="preserve">
-  <value>Out of sight inside cover</value>
+  <value>躲起來，看不見我</value>
   <comment>Out of sight inside cover</comment>
 </data>
 <data name="Moodlet.Flavor.Hidden.Dark" xml:space="preserve">
-  <value>Cloaked in darkness</value>
+  <value>隱沒於黑暗之中</value>
   <comment>Cloaked in darkness</comment>
 </data>
 <data name="Moodlet.Flavor.Gestation.Warn" xml:space="preserve">
-  <value>Your stomach churns, something feels wrong</value>
+  <value>胃裡翻騰，感覺不對勁</value>
   <comment>Your stomach churns, something feels wrong</comment>
 </data>
 <data name="Moodlet.Flavor.Gestation.Bad" xml:space="preserve">
-  <value>Waves of nausea, your gut cramps</value>
+  <value>陣陣噁心，腸胃抽痛</value>
   <comment>Waves of nausea, your gut cramps</comment>
 </data>
 <data name="Moodlet.Flavor.Gestation.Severe" xml:space="preserve">
-  <value>Something is moving inside your chest</value>
+  <value>胸腔有什麼在動</value>
   <comment>Something is moving inside your chest</comment>
 </data>
 <data name="Moodlet.Flavor.Scoped" xml:space="preserve">
-  <value>Sighted down the scope</value>
+  <value>透過瞄準鏡看</value>
   <comment>Sighted down the scope</comment>
 </data>
 <data name="Moodlet.Flavor.HoldingBreath" xml:space="preserve">
-  <value>Breath held for a steady aim</value>
+  <value>屏住呼吸穩定瞄準</value>
   <comment>Breath held for a steady aim</comment>
 </data>
 <data name="Moodlet.Flavor.Entangled" xml:space="preserve">
-  <value>Caught in wire</value>
+  <value>被鐵絲網纏住</value>
   <comment>Caught in wire</comment>
 </data>
 <data name="Moodlet.Flavor.Storm" xml:space="preserve">
-  <value>Ash and wind scour the open ground</value>
+  <value>灰燼與風席捲地面</value>
   <comment>Ash and wind scour the open ground</comment>
 </data>
 <data name="Moodlet.Flavor.Dread" xml:space="preserve">
-  <value>Something is near</value>
+  <value>它來了</value>
   <comment>Something is near</comment>
 </data>
 <data name="Moodlet.Flavor.Irradiated" xml:space="preserve">
-  <value>You are being irradiated</value>
+  <value>你受到輻射</value>
   <comment>You are being irradiated</comment>
 </data>
 <data name="Moodlet.Flavor.ShortSighted" xml:space="preserve">
-  <value>Everything past arm's reach is a smear</value>
+  <value>遠處的東西都好模糊</value>
   <comment>Everything past arm's reach is a smear</comment>
 </data>
 <data name="Moodlet.Flavor.Connection.Loss" xml:space="preserve">
-  <value>Your connection is dropping packets on the way to the server</value>
+  <value>你通往伺服器的連線正在丟失封包</value>
   <comment>Your connection is dropping packets on the way to the server</comment>
 </data>
 <data name="Moodlet.Flavor.Connection.Ping" xml:space="preserve">
-  <value>Your ping is running far above its best for this session</value>
+  <value>你的延遲正遠高於本次連線最佳值</value>
   <comment>Your ping is running far above its best for this session</comment>
 </data>
 <data name="Moodlet.Flavor.Connection.Both" xml:space="preserve">
-  <value>Your connection is dropping packets and your ping is far above its best</value>
+  <value>你正在丟失封包，延遲也遠高於最佳值</value>
   <comment>Your connection is dropping packets and your ping is far above its best</comment>
 </data>
 <data name="Moodlet.Flavor.Face.North" xml:space="preserve">
-  <value>Holding your facing to the north</value>
+  <value>保持向北</value>
   <comment>Holding your facing to the north</comment>
 </data>
 <data name="Moodlet.Flavor.Face.East" xml:space="preserve">
-  <value>Holding your facing to the east</value>
+  <value>保持向東</value>
   <comment>Holding your facing to the east</comment>
 </data>
 <data name="Moodlet.Flavor.Face.South" xml:space="preserve">
-  <value>Holding your facing to the south</value>
+  <value>保持向南</value>
   <comment>Holding your facing to the south</comment>
 </data>
 <data name="Moodlet.Flavor.Face.West" xml:space="preserve">
-  <value>Holding your facing to the west</value>
+  <value>保持向西</value>
   <comment>Holding your facing to the west</comment>
 </data>
 <data name="Moodlet.Flavor.Fallback" xml:space="preserve">
-  <value>~moodlet</value>
+  <value>~狀態效果</value>
   <comment>~moodlet</comment>
 </data>
 <data name="Moodlet.Flavor.Pulling.Template" xml:space="preserve">
-  <value>Dragging {NAME}</value>
+  <value>拉著 {NAME}</value>
   <comment>Dragging {NAME}</comment>
 </data>
 <data name="Moodlet.Flavor.Entangled.Template" xml:space="preserve">
-  <value>Caught in the {NAME}</value>
+  <value>被 {NAME} 纏著</value>
   <comment>Caught in the {NAME}</comment>
 </data>
 <data name="Moodlet.Flavor.Laden.Template" xml:space="preserve">
-  <value>Weighed down by {NAME}</value>
+  <value>被 {NAME} 拖慢</value>
   <comment>Weighed down by {NAME}</comment>
 </data>
 <data name="Moodlet.Flavor.Wielded.Template" xml:space="preserve">
-  <value>Wielding {NAME}</value>
+  <value>握著 {NAME}</value>
   <comment>Wielding {NAME}</comment>
 </data>
 <data name="Moodlet.Flavor.Overdose.Template" xml:space="preserve">
-  <value>{REAGENT} has reached dangerous levels</value>
+  <value>{REAGENT} 超出危險劑量</value>
   <comment>{REAGENT} has reached dangerous levels</comment>
 </data>
 <data name="Moodlet.Hint.None" xml:space="preserve">
@@ -2656,511 +2656,511 @@ The file is looked up beside this language file first, then under the game's Con
   <comment></comment>
 </data>
 <data name="Moodlet.Hint.Burning.Severe" xml:space="preserve">
-  <value>Stop, drop, and roll</value>
+  <value>停止、趴下、翻滾</value>
   <comment>Stop, drop, and roll</comment>
 </data>
 <data name="Moodlet.Hint.Burning.Mild" xml:space="preserve">
-  <value>Rolling strips 10 stacks</value>
+  <value>翻滾降低十層</value>
   <comment>Rolling strips 10 stacks</comment>
 </data>
 <data name="Moodlet.Hint.Pain" xml:space="preserve">
-  <value>Painkillers dull it</value>
+  <value>止痛藥讓你麻木</value>
   <comment>Painkillers dull it</comment>
 </data>
 <data name="Moodlet.Hint.Bleeding" xml:space="preserve">
-  <value>Bandage the wound</value>
+  <value>包扎傷口</value>
   <comment>Bandage the wound</comment>
 </data>
 <data name="Moodlet.Hint.Severed" xml:space="preserve">
-  <value>Surgery can fit a prosthetic arm or leg</value>
+  <value>手術能接上義肢手臂或腿</value>
   <comment>Surgery can fit a prosthetic arm or leg</comment>
 </data>
 <data name="Moodlet.Hint.Fracture.Severe" xml:space="preserve">
-  <value>Splint it</value>
+  <value>上夾板</value>
   <comment>Splint it</comment>
 </data>
 <data name="Moodlet.Hint.Splinted" xml:space="preserve">
-  <value>Remove Splint from the context menu when healed</value>
+  <value>治療好後用右鍵選單拿掉夾板</value>
   <comment>Remove Splint from the context menu when healed</comment>
 </data>
 <data name="Moodlet.Hint.Shrapnel.Known" xml:space="preserve">
-  <value>Dig it out with a scalpel, bayonet, or screwdriver</value>
+  <value>用手術刀、刺刀或螺絲起子挖出來</value>
   <comment>Dig it out with a scalpel, bayonet, or screwdriver</comment>
 </data>
 <data name="Moodlet.Hint.Shrapnel.Unknown" xml:space="preserve">
-  <value>Yank Embedded Object from the context menu</value>
+  <value>用右鍵選單拔出嵌入物</value>
   <comment>Yank Embedded Object from the context menu</comment>
 </data>
 <data name="Moodlet.Hint.Hunger.EatSomething" xml:space="preserve">
-  <value>Eat something</value>
+  <value>吃東西吧</value>
   <comment>Eat something</comment>
 </data>
 <data name="Moodlet.Hint.Hunger.EatNow" xml:space="preserve">
-  <value>Eat now</value>
+  <value>快吃</value>
   <comment>Eat now</comment>
 </data>
 <data name="Moodlet.Hint.Thirst.Now" xml:space="preserve">
-  <value>Drink now</value>
+  <value>快喝</value>
   <comment>Drink now</comment>
 </data>
 <data name="Moodlet.Hint.Thirst.Water" xml:space="preserve">
-  <value>Drink water</value>
+  <value>喝水</value>
   <comment>Drink water</comment>
 </data>
 <data name="Moodlet.Hint.Pulling" xml:space="preserve">
-  <value>Click the pull hand slot to release</value>
+  <value>點擊拉著的手欄位來放開</value>
   <comment>Click the pull hand slot to release</comment>
 </data>
 <data name="Moodlet.Hint.Wielded.Brace" xml:space="preserve">
-  <value>Press the wield key to release the brace</value>
+  <value>點擊握持鍵來放手</value>
   <comment>Press the wield key to release the brace</comment>
 </data>
 <data name="Moodlet.Hint.Wielded.Unwield" xml:space="preserve">
-  <value>Click the hand slot to unwield</value>
+  <value>點擊手欄位來放手</value>
   <comment>Click the hand slot to unwield</comment>
 </data>
 <data name="Moodlet.Hint.Crowded" xml:space="preserve">
-  <value>Spread out</value>
+  <value>散開點</value>
   <comment>Spread out</comment>
 </data>
 <data name="Moodlet.Hint.Concussed" xml:space="preserve">
-  <value>It passes with time</value>
+  <value>隨時間變好</value>
   <comment>It passes with time</comment>
 </data>
 <data name="Moodlet.Hint.Coughing" xml:space="preserve">
-  <value>Peridaxon quiets it, surgery mends the lungs</value>
+  <value>沛力達散(Peridaxon) 可以止住症狀，手術能修復肺部</value>
   <comment>Peridaxon quiets it, surgery mends the lungs</comment>
 </data>
 <data name="Moodlet.Hint.Gasping" xml:space="preserve">
-  <value>Dexalin restores the breath</value>
+  <value>得咳嗽靈(Dexalin) 能恢復呼吸</value>
   <comment>Dexalin restores the breath</comment>
 </data>
 <data name="Moodlet.Hint.Headache" xml:space="preserve">
-  <value>Alkysine mends the brain</value>
+  <value>愛腦殼散(Alkysine) 治療大腦</value>
   <comment>Alkysine mends the brain</comment>
 </data>
 <data name="Moodlet.Hint.Unconscious.Severe" xml:space="preserve">
-  <value>Needs treatment fast</value>
+  <value>需要立即治療</value>
   <comment>Needs treatment fast</comment>
 </data>
 <data name="Moodlet.Hint.Painkillers" xml:space="preserve">
-  <value>Numbness can hide real injuries</value>
+  <value>麻木感會掩蓋真實傷勢</value>
   <comment>Numbness can hide real injuries</comment>
 </data>
 <data name="Moodlet.Hint.Caffeine" xml:space="preserve">
-  <value>It fades as the stimulant burns away</value>
+  <value>隨著興奮劑代謝降低效果</value>
   <comment>It fades as the stimulant burns away</comment>
 </data>
 <data name="Moodlet.Hint.Poisoned" xml:space="preserve">
-  <value>Antitoxin counters the damage</value>
+  <value>解毒劑能抵銷傷害</value>
   <comment>Antitoxin counters the damage</comment>
 </data>
 <data name="Moodlet.Hint.Overdose" xml:space="preserve">
-  <value>Stop dosing and let it burn off</value>
+  <value>停止攝取讓它代謝掉</value>
   <comment>Stop dosing and let it burn off</comment>
 </data>
 <data name="Moodlet.Hint.Laden" xml:space="preserve">
-  <value>Shed heavy gear to move faster</value>
+  <value>脫下重裝來加速移動</value>
   <comment>Shed heavy gear to move faster</comment>
 </data>
 <data name="Moodlet.Hint.Damp.Severe" xml:space="preserve">
-  <value>Get out of the water</value>
+  <value>離開水裡</value>
   <comment>Get out of the water</comment>
 </data>
 <data name="Moodlet.Hint.Damp.Default" xml:space="preserve">
-  <value>Get under a roof to dry off</value>
+  <value>進到屋裡讓衣服乾</value>
   <comment>Get under a roof to dry off</comment>
 </data>
 <data name="Moodlet.Hint.Searched" xml:space="preserve">
-  <value>Move away to stop them</value>
+  <value>離開來停止搜查</value>
   <comment>Move away to stop them</comment>
 </data>
 <data name="Moodlet.Hint.Prone" xml:space="preserve">
-  <value>Toggle Prone to stand</value>
+  <value>切換趴下至站起</value>
   <comment>Toggle Prone to stand</comment>
 </data>
 <data name="Moodlet.Hint.Hidden.Dark" xml:space="preserve">
-  <value>Noise and closeness still give you away</value>
+  <value>噪音或接近仍會暴露你</value>
   <comment>Noise and closeness still give you away</comment>
 </data>
 <data name="Moodlet.Hint.Gestation" xml:space="preserve">
-  <value>Find a surgeon for extraction</value>
+  <value>找外科醫生取出</value>
   <comment>Find a surgeon for extraction</comment>
 </data>
 <data name="Moodlet.Hint.Scoped" xml:space="preserve">
-  <value>Unwield or switch the scope off to exit</value>
+  <value>取消握持或關閉狙擊鏡退出</value>
   <comment>Unwield or switch the scope off to exit</comment>
 </data>
 <data name="Moodlet.Hint.HoldingBreath" xml:space="preserve">
-  <value>Release it before you black out</value>
+  <value>在昏迷前恢復呼吸</value>
   <comment>Release it before you black out</comment>
 </data>
 <data name="Moodlet.Hint.Entangled" xml:space="preserve">
-  <value>Push clear, or cut the wire with wirecutters</value>
+  <value>掙脫或用剪線鉗剪掉鐵絲</value>
   <comment>Push clear, or cut the wire with wirecutters</comment>
 </data>
 <data name="Moodlet.Hint.Storm" xml:space="preserve">
-  <value>Get under a roof</value>
+  <value>進到屋頂下</value>
   <comment>Get under a roof</comment>
 </data>
 <data name="Moodlet.Hint.Dread" xml:space="preserve">
-  <value>Your hands will not stay still</value>
+  <value>你的手在發抖</value>
   <comment>Your hands will not stay still</comment>
 </data>
 <data name="Moodlet.Hint.Irradiated.Iodine" xml:space="preserve">
-  <value>Iodine is flushing the dose</value>
+  <value>碘正在去除輻射</value>
   <comment>Iodine is flushing the dose</comment>
 </data>
 <data name="Moodlet.Hint.Irradiated.Default" xml:space="preserve">
-  <value>Radiation gear or iodine reduces the dose</value>
+  <value>輻射裝備或碘能降低輻射</value>
   <comment>Radiation gear or iodine reduces the dose</comment>
 </data>
 <data name="Moodlet.Hint.ShortSighted" xml:space="preserve">
-  <value>Prescription glasses on the eyes, face or head correct it</value>
+  <value>在眼部、面部或頭上戴上眼鏡能恢復視力</value>
   <comment>Prescription glasses on the eyes, face or head correct it</comment>
 </data>
 <data name="Moodlet.Hint.Connection" xml:space="preserve">
-  <value>This is between your machine and the server: wifi, a download or a VPN are the usual causes</value>
+  <value>你和伺服器之間連線有問題: WIFI、正在下載東西或 VPN 通常是原因</value>
   <comment>This is between your machine and the server: wifi, a download or a VPN are the usual causes</comment>
 </data>
 <data name="Moodlet.Hint.Face" xml:space="preserve">
-  <value>ALT plus the movement key you face releases the hold</value>
+  <value>ALT 加上你面對的方向可以解除</value>
   <comment>ALT plus the movement key you face releases the hold</comment>
 </data>
 <data name="Moodlet.Phrase.ZombiesCannotSeeYou" xml:space="preserve">
-  <value>Zombies cannot see you</value>
+  <value>殭屍看不到你</value>
   <comment>Zombies cannot see you</comment>
 </data>
 <data name="Moodlet.Phrase.HarderForZombiesToSpot" xml:space="preserve">
-  <value>Harder for zombies to spot</value>
+  <value>更難被殭屍發現</value>
   <comment>Harder for zombies to spot</comment>
 </data>
 <data name="Moodlet.Phrase.WhatLivesHereCanStillSeeYou" xml:space="preserve">
-  <value>What lives here can still see you</value>
+  <value>棲息此地的東西仍能看到你</value>
   <comment>What lives here can still see you</comment>
 </data>
 <data name="Moodlet.Phrase.MovingNeverTurnsYou" xml:space="preserve">
-  <value>Moving never turns you</value>
+  <value>移動不會使你轉向</value>
   <comment>Moving never turns you</comment>
 </data>
 <data name="Moodlet.Phrase.ScopeSwayStops" xml:space="preserve">
-  <value>Scope sway stops</value>
+  <value>狙擊鏡穩定下來</value>
   <comment>Scope sway stops</comment>
 </data>
 <data name="Moodlet.Phrase.SlowlyLosingAir" xml:space="preserve">
-  <value>Slowly losing air</value>
+  <value>逐漸失去氧氣</value>
   <comment>Slowly losing air</comment>
 </data>
 <data name="Moodlet.Phrase.BlacksOutAsOxygenRunsOut" xml:space="preserve">
-  <value>Blacks out as oxygen runs out</value>
+  <value>缺氧昏厥過去</value>
   <comment>Blacks out as oxygen runs out</comment>
 </data>
 <data name="Moodlet.Phrase.MayDropHeldItems" xml:space="preserve">
-  <value>May drop held items</value>
+  <value>可能會鬆手</value>
   <comment>May drop held items</comment>
 </data>
 <data name="Moodlet.Phrase.Blackouts" xml:space="preserve">
-  <value>Blackouts</value>
+  <value>昏厥</value>
   <comment>Blackouts</comment>
 </data>
 <data name="Moodlet.Phrase.CannotAct" xml:space="preserve">
-  <value>Cannot act</value>
+  <value>無法行動</value>
   <comment>Cannot act</comment>
 </data>
 <data name="Moodlet.Phrase.MendingWounds" xml:space="preserve">
-  <value>Mending wounds</value>
+  <value>傷口治療中</value>
   <comment>Mending wounds</comment>
 </data>
 <data name="Moodlet.Phrase.MendingBurns" xml:space="preserve">
-  <value>Mending burns</value>
+  <value>燒傷治療中</value>
   <comment>Mending burns</comment>
 </data>
 <data name="Moodlet.Phrase.FlushingToxins" xml:space="preserve">
-  <value>Flushing toxins</value>
+  <value>毒素褪去中</value>
   <comment>Flushing toxins</comment>
 </data>
 <data name="Moodlet.Phrase.RestoringBloodOxygen" xml:space="preserve">
-  <value>Restoring blood oxygen</value>
+  <value>恢復血氧</value>
   <comment>Restoring blood oxygen</comment>
 </data>
 <data name="Moodlet.Phrase.StabilizingOrgans" xml:space="preserve">
-  <value>Stabilizing organs</value>
+  <value>穩定器官</value>
   <comment>Stabilizing organs</comment>
 </data>
 <data name="Moodlet.Phrase.MendingInternalBleeding" xml:space="preserve">
-  <value>Mending internal bleeding</value>
+  <value>治療內出血</value>
   <comment>Mending internal bleeding</comment>
 </data>
 <data name="Moodlet.Phrase.SuppressingInternalBleeding" xml:space="preserve">
-  <value>Suppressing internal bleeding</value>
+  <value>壓制內出血</value>
   <comment>Suppressing internal bleeding</comment>
 </data>
 <data name="Moodlet.Phrase.MendingFractures" xml:space="preserve">
-  <value>Mending fractures</value>
+  <value>治療骨折</value>
   <comment>Mending fractures</comment>
 </data>
 <data name="Moodlet.Phrase.QuickeningYourStep" xml:space="preserve">
-  <value>Quickening your step</value>
+  <value>加快腳步</value>
   <comment>Quickening your step</comment>
 </data>
 <data name="Moodlet.Phrase.PainSuppressed" xml:space="preserve">
-  <value>Pain suppressed</value>
+  <value>壓制疼痛</value>
   <comment>Pain suppressed</comment>
 </data>
 <data name="Moodlet.Phrase.TakingToxinDamage" xml:space="preserve">
-  <value>Taking toxin damage</value>
+  <value>受到毒素傷害</value>
   <comment>Taking toxin damage</comment>
 </data>
 <data name="Moodlet.Phrase.TakingBurnDamage" xml:space="preserve">
-  <value>Taking burn damage</value>
+  <value>受到燒傷</value>
   <comment>Taking burn damage</comment>
 </data>
 <data name="Moodlet.Phrase.Suffocating" xml:space="preserve">
-  <value>Suffocating</value>
+  <value>窒息</value>
   <comment>Suffocating</comment>
 </data>
 <data name="Moodlet.Phrase.TakingOverdoseDamage" xml:space="preserve">
-  <value>Taking overdose damage</value>
+  <value>受到藥物過量傷害</value>
   <comment>Taking overdose damage</comment>
 </data>
 <data name="Moodlet.Phrase.WorseningRapidly" xml:space="preserve">
-  <value>Worsening rapidly</value>
+  <value>快速惡化</value>
   <comment>Worsening rapidly</comment>
 </data>
 <data name="Moodlet.Phrase.VisionBlurred" xml:space="preserve">
-  <value>Vision blurred</value>
+  <value>視線糢糊</value>
   <comment>Vision blurred</comment>
 </data>
 <data name="Moodlet.Phrase.BlurredVision" xml:space="preserve">
-  <value>Blurred vision</value>
+  <value>模糊視線</value>
   <comment>Blurred vision</comment>
 </data>
 <data name="Moodlet.Phrase.HarderForEnemiesToSpotAtRange" xml:space="preserve">
-  <value>Harder for enemies to spot at range</value>
+  <value>讓敵人更難從遠處發現你</value>
   <comment>Harder for enemies to spot at range</comment>
 </data>
 <data name="Moodlet.Phrase.StrayFirePassesOverhead" xml:space="preserve">
-  <value>Stray fire passes overhead</value>
+  <value>流彈飛過頭頂</value>
   <comment>Stray fire passes overhead</comment>
 </data>
 <data name="Moodlet.Phrase.FallsLandSofter" xml:space="preserve">
-  <value>Falls land softer</value>
+  <value>跌落更安全</value>
   <comment>Falls land softer</comment>
 </data>
 <data name="Moodlet.Phrase.MovementAtCrawlSpeed" xml:space="preserve">
-  <value>Movement at crawl speed</value>
+  <value>寸步難行</value>
   <comment>Movement at crawl speed</comment>
 </data>
 <data name="Moodlet.Phrase.MovementDisabledKeysOnlyTurnYou" xml:space="preserve">
-  <value>Movement disabled, keys only turn you</value>
+  <value>動不了了，移動鍵只會使你轉向</value>
   <comment>Movement disabled, keys only turn you</comment>
 </data>
 <data name="Moodlet.Phrase.NightVisionOptics" xml:space="preserve">
-  <value>Night vision optics</value>
+  <value>夜視鏡</value>
   <comment>Night vision optics</comment>
 </data>
 <data name="Moodlet.Phrase.CrosshairPicksTheLimb" xml:space="preserve">
-  <value>Crosshair picks the limb, not the paper doll</value>
+  <value>準心選擇肢體，而非紙娃娃</value>
   <comment>Crosshair picks the limb, not the paper doll</comment>
 </data>
 <data name="Moodlet.Phrase.NoBloodRegeneration" xml:space="preserve">
-  <value>No blood regeneration</value>
+  <value>不會恢復血量</value>
   <comment>No blood regeneration</comment>
 </data>
 <data name="Moodlet.Phrase.PassingOut" xml:space="preserve">
-  <value>Passing out</value>
+  <value>失去意識</value>
   <comment>Passing out</comment>
 </data>
 <data name="Moodlet.Phrase.MovingUnbucklesYou" xml:space="preserve">
-  <value>Moving unbuckles you</value>
+  <value>移動使你脫離</value>
   <comment>Moving unbuckles you</comment>
 </data>
 <data name="Moodlet.Phrase.RollsOnWheelsNoSlowdown" xml:space="preserve">
-  <value>Rolls on wheels, no slowdown</value>
+  <value>有輪子，不會減慢</value>
   <comment>Rolls on wheels, no slowdown</comment>
 </data>
 <data name="Moodlet.Phrase.BonesKnitting" xml:space="preserve">
-  <value>Bones knitting</value>
+  <value>骨頭癒合</value>
   <comment>Bones knitting</comment>
 </data>
 <data name="Moodlet.Phrase.GrindsTheWoundAsYouMove" xml:space="preserve">
-  <value>Grinds the wound as you move</value>
+  <value>移動時會撕扯傷口</value>
   <comment>Grinds the wound as you move</comment>
 </data>
 <data name="Moodlet.Phrase.SplintHoldsItStill" xml:space="preserve">
-  <value>Splint holds it still</value>
+  <value>夾板固定住</value>
   <comment>Splint holds it still</comment>
 </data>
 <data name="Moodlet.Phrase.LyingStillCostsNothing" xml:space="preserve">
-  <value>Lying still costs nothing</value>
+  <value>躺下還沒有阻礙</value>
   <comment>Lying still costs nothing</comment>
 </data>
 <data name="Moodlet.Phrase.NoMovementPenalty" xml:space="preserve">
-  <value>No movement penalty</value>
+  <value>無移動懲罰</value>
   <comment>No movement penalty</comment>
 </data>
 <data name="Moodlet.Phrase.GunWeightCarriedByArmor" xml:space="preserve">
-  <value>Gun weight carried by armor</value>
+  <value>裝甲承受槍枝重量</value>
   <comment>Gun weight carried by armor</comment>
 </data>
 <data name="Moodlet.Phrase.SteadierAim" xml:space="preserve">
-  <value>Steadier aim</value>
+  <value>穩定射擊</value>
   <comment>Steadier aim</comment>
 </data>
 <data name="Moodlet.WordToken.MovingOppositeFacing" xml:space="preserve">
-  <value>Moving opposite the facing {WORD}</value>
+  <value>背對 {WORD} 移動</value>
   <comment>Moving opposite the facing {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.Running" xml:space="preserve">
-  <value>Running {WORD}</value>
+  <value>跑向 {WORD}</value>
   <comment>Running {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.Movement" xml:space="preserve">
-  <value>Movement {WORD}</value>
+  <value>走向 {WORD}</value>
   <comment>Movement {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.Hearing" xml:space="preserve">
-  <value>Hearing {WORD}</value>
+  <value>聽到 {WORD}</value>
   <comment>Hearing {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.Blood" xml:space="preserve">
-  <value>Blood {WORD}</value>
+  <value>血 {WORD}</value>
   <comment>Blood {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.Crawling" xml:space="preserve">
-  <value>Crawling {WORD}</value>
+  <value>爬行 {WORD}</value>
   <comment>Crawling {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.Eating" xml:space="preserve">
-  <value>Eating {WORD}</value>
+  <value>吃 {WORD}</value>
   <comment>Eating {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.HungerEffects" xml:space="preserve">
-  <value>Hunger effects {WORD}</value>
+  <value>飢餓影響 {WORD}</value>
   <comment>Hunger effects {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.Drinking" xml:space="preserve">
-  <value>Drinking {WORD}</value>
+  <value>喝下 {WORD}</value>
   <comment>Drinking {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.ThirstEffects" xml:space="preserve">
-  <value>Thirst effects {WORD}</value>
+  <value>口渴影響 {WORD}</value>
   <comment>Thirst effects {WORD}</comment>
 </data>
 <data name="Moodlet.Word.Reduced" xml:space="preserve">
-  <value>reduced</value>
+  <value>下降</value>
   <comment>reduced</comment>
 </data>
 <data name="Moodlet.Word.Gone" xml:space="preserve">
-  <value>gone</value>
+  <value>沒了</value>
   <comment>gone</comment>
 </data>
 <data name="Moodlet.Word.Muffled" xml:space="preserve">
-  <value>muffled</value>
+  <value>壓低聲音</value>
   <comment>muffled</comment>
 </data>
 <data name="Moodlet.Word.Decreasing" xml:space="preserve">
-  <value>decreasing</value>
+  <value>降低</value>
   <comment>decreasing</comment>
 </data>
 <data name="Moodlet.Word.Slowed" xml:space="preserve">
-  <value>slowed</value>
+  <value>緩慢</value>
   <comment>slowed</comment>
 </data>
 <data name="Moodlet.Word.Disabled" xml:space="preserve">
-  <value>disabled</value>
+  <value>失能</value>
   <comment>disabled</comment>
 </data>
 <data name="Moodlet.Word.Cancelled" xml:space="preserve">
-  <value>cancelled</value>
+  <value>取消</value>
   <comment>cancelled</comment>
 </data>
 <data name="Moodlet.Row.SurgeryTakes" xml:space="preserve">
-  <value>Surgery takes {PERCENT}% as long</value>
+  <value>手術花費 {PERCENT}% 更久</value>
   <comment>Surgery takes {PERCENT}% as long</comment>
 </data>
 <data name="Moodlet.Row.SpotRangeOne" xml:space="preserve">
-  <value>Zombies spot you only within {TILES} tile</value>
+  <value>殭屍靠近 {TILES} 格才能發現你</value>
   <comment>Zombies spot you only within {TILES} tile</comment>
 </data>
 <data name="Moodlet.Row.SpotRangeMany" xml:space="preserve">
-  <value>Zombies spot you only within {TILES} tiles</value>
+  <value>殭屍靠近 {TILES} 格才能發現你</value>
   <comment>Zombies spot you only within {TILES} tiles</comment>
 </data>
 <data name="Moodlet.Row.SightReachesOne" xml:space="preserve">
-  <value>Sight reaches {TILES} tile ahead</value>
+  <value>視線能延伸 {TILES} 格遠</value>
   <comment>Sight reaches {TILES} tile ahead</comment>
 </data>
 <data name="Moodlet.Row.SightReachesMany" xml:space="preserve">
-  <value>Sight reaches {TILES} tiles ahead</value>
+  <value>視線能延伸 {TILES} 格遠</value>
   <comment>Sight reaches {TILES} tiles ahead</comment>
 </data>
 <data name="Moodlet.Unit.BloodPerSecond" xml:space="preserve">
-  <value> Blood/s</value>
+  <value> 血/秒</value>
   <comment> Blood/s</comment>
 </data>
 <data name="Moodlet.Unit.HpPerSecondSuffocating" xml:space="preserve">
-  <value> HP/s Suffocating</value>
+  <value> HP/秒 窒息</value>
   <comment> HP/s Suffocating</comment>
 </data>
 <data name="Moodlet.Unit.HpPerSecondBurning" xml:space="preserve">
-  <value> HP/s Burning</value>
+  <value> HP/秒 燒傷</value>
   <comment> HP/s Burning</comment>
 </data>
 <data name="Moodlet.Unit.HpPerStep" xml:space="preserve">
-  <value> HP per step</value>
+  <value> HP 每步</value>
   <comment> HP per step</comment>
 </data>
 <data name="Moodlet.Unit.HpPerStepWalking" xml:space="preserve">
-  <value> HP per step walking</value>
+  <value> HP 每走一步</value>
   <comment> HP per step walking</comment>
 </data>
 <data name="Moodlet.Unit.HpPerStepCrawling" xml:space="preserve">
-  <value> HP per step crawling</value>
+  <value> HP 每爬一格</value>
   <comment> HP per step crawling</comment>
 </data>
 <data name="Moodlet.Unit.WalkingOppositeFacing" xml:space="preserve">
-  <value> Walking opposite the facing</value>
+  <value> 向後走</value>
   <comment> Walking opposite the facing</comment>
 </data>
 <data name="Moodlet.Unit.RunningOppositeFacing" xml:space="preserve">
-  <value> Running opposite the facing</value>
+  <value> 向後跑</value>
   <comment> Running opposite the facing</comment>
 </data>
 <data name="Moodlet.Unit.Accuracy" xml:space="preserve">
-  <value> Accuracy</value>
+  <value> 準度</value>
   <comment> Accuracy</comment>
 </data>
 <data name="Moodlet.Unit.Movement" xml:space="preserve">
-  <value> Movement</value>
+  <value> 移動</value>
   <comment> Movement</comment>
 </data>
 <data name="Moodlet.Unit.Walking" xml:space="preserve">
-  <value> Walking</value>
+  <value> 步行</value>
   <comment> Walking</comment>
 </data>
 <data name="Moodlet.Unit.Running" xml:space="preserve">
-  <value> Running</value>
+  <value> 跑步</value>
   <comment> Running</comment>
 </data>
 <data name="Moodlet.Unit.Crawling" xml:space="preserve">
-  <value> Crawling</value>
+  <value> 爬行</value>
   <comment> Crawling</comment>
 </data>
 <data name="Moodlet.Unit.Moving" xml:space="preserve">
-  <value> Moving</value>
+  <value> 移動</value>
   <comment> Moving</comment>
 </data>
 <data name="Moodlet.Unit.PercentMovement" xml:space="preserve">
-  <value>% Movement</value>
+  <value>% 移動</value>
   <comment>% Movement</comment>
 </data>
 <data name="Moodlet.Unit.Pain" xml:space="preserve">
-  <value> Pain</value>
+  <value> 疼痛</value>
   <comment> Pain</comment>
 </data>
 <data name="Moodlet.Unit.Scatter" xml:space="preserve">
-  <value> Scatter</value>
+  <value> 散布</value>
   <comment> Scatter</comment>
 </data>
 <data name="Moodlet.Unit.ShotSpread" xml:space="preserve">
@@ -3168,151 +3168,151 @@ The file is looked up beside this language file first, then under the game's Con
   <comment> Shot spread</comment>
 </data>
 <data name="Moodlet.Unit.ExplosionDamage" xml:space="preserve">
-  <value> Explosion damage</value>
+  <value> 爆炸傷害</value>
   <comment> Explosion damage</comment>
 </data>
 <data name="Moodlet.Unit.DamageToXenos" xml:space="preserve">
-  <value> Damage to xenos</value>
+  <value> 對異形傷害</value>
   <comment> Damage to xenos</comment>
 </data>
 <data name="Moodlet.Unit.FireDelay" xml:space="preserve">
-  <value> Fire delay</value>
+  <value> 射擊延遲</value>
   <comment> Fire delay</comment>
 </data>
 <data name="Moodlet.Unit.ViewRange" xml:space="preserve">
-  <value> View range</value>
+  <value> 視距</value>
   <comment> View range</comment>
 </data>
 <data name="Moodlet.Unit.ChanceToTearPerStep" xml:space="preserve">
-  <value> chance to tear per step</value>
+  <value> 機率撕裂 每步</value>
   <comment> chance to tear per step</comment>
 </data>
 <data name="Moodlet.Unit.ChanceOfOpenCutPerStep" xml:space="preserve">
-  <value> chance of an open cut per step</value>
+  <value> 機率切開 每步</value>
   <comment> chance of an open cut per step</comment>
 </data>
 <data name="Moodlet.Unit.ChanceOfShrapnelPerStep" xml:space="preserve">
-  <value> chance of shrapnel per step</value>
+  <value> 機率碎片嵌入 每步</value>
   <comment> chance of shrapnel per step</comment>
 </data>
 <data name="Moodlet.Unit.HungerRate" xml:space="preserve">
-  <value> Hunger rate</value>
+  <value> 飢餓率</value>
   <comment> Hunger rate</comment>
 </data>
 <data name="Moodlet.Unit.StacksOfFire" xml:space="preserve">
-  <value> stacks of fire</value>
+  <value> 火焰層數</value>
   <comment> stacks of fire</comment>
 </data>
 <data name="Moodlet.Unit.ObjectEmbeddedOne" xml:space="preserve">
-  <value> object embedded</value>
+  <value> 個物體嵌入</value>
   <comment> object embedded</comment>
 </data>
 <data name="Moodlet.Unit.ObjectEmbeddedMany" xml:space="preserve">
-  <value> objects embedded</value>
+  <value> 個物體嵌入</value>
   <comment> objects embedded</comment>
 </data>
 <data name="Moodlet.Unit.TileSightRange" xml:space="preserve">
-  <value> Tile sight range</value>
+  <value> 格視距</value>
   <comment> Tile sight range</comment>
 </data>
 <data name="Moodlet.Unit.LimbBleeding" xml:space="preserve">
-  <value> bleeding</value>
+  <value> 流血</value>
   <comment> bleeding</comment>
 </data>
 <data name="Moodlet.Unit.LimbFracture" xml:space="preserve">
-  <value> fracture</value>
+  <value> 骨折</value>
   <comment> fracture</comment>
 </data>
 <data name="Moodlet.Unit.LimbSevered" xml:space="preserve">
-  <value> severed</value>
+  <value> 斷肢</value>
   <comment> severed</comment>
 </data>
 <data name="Moodlet.Unit.LimbSplinted" xml:space="preserve">
-  <value> splinted</value>
+  <value> 上了夾板</value>
   <comment> splinted</comment>
 </data>
 <data name="StripUi.Adjacent" xml:space="preserve">
-  <value>ADJACENT</value>
+  <value>附近</value>
   <comment>ADJACENT</comment>
 </data>
 <data name="EquipSlotsUi.BodyPanelTitle" xml:space="preserve">
-  <value>BODY</value>
+  <value>身體</value>
   <comment>BODY</comment>
 </data>
 <data name="EquipSlotsUi.BodyToggleOpenEquipment" xml:space="preserve">
-  <value>open equipment</value>
+  <value>打開裝備</value>
   <comment>open equipment</comment>
 </data>
 <data name="EquipSlotsUi.BodyToggleClose" xml:space="preserve">
-  <value>close</value>
+  <value>關閉</value>
   <comment>close</comment>
 </data>
 <data name="EquipSlotsUi.ChipToggleShow" xml:space="preserve">
-  <value>show {CONTROLS}</value>
+  <value>顯示 {CONTROLS}</value>
   <comment>show {CONTROLS}</comment>
 </data>
 <data name="EquipSlotsUi.ChipToggleHide" xml:space="preserve">
-  <value>hide {CONTROLS}</value>
+  <value>隱藏 {CONTROLS}</value>
   <comment>hide {CONTROLS}</comment>
 </data>
 <data name="EquipSlotsUi.ChipToggleWeaponControls" xml:space="preserve">
-  <value>weapon controls</value>
+  <value>武器控制</value>
   <comment>weapon controls</comment>
 </data>
 <data name="EquipSlotsUi.ChipToggleModeControls" xml:space="preserve">
-  <value>mode controls</value>
+  <value>模式控制</value>
   <comment>mode controls</comment>
 </data>
 <data name="EquipSlotsUi.Tag.RightHand" xml:space="preserve">
-  <value>R</value>
+  <value>右</value>
   <comment>R</comment>
 </data>
 <data name="EquipSlotsUi.Tag.LeftHand" xml:space="preserve">
-  <value>L</value>
+  <value>左</value>
   <comment>L</comment>
 </data>
 <data name="EquipSlotsUi.Tag.Uniform" xml:space="preserve">
-  <value>UNI</value>
+  <value>制服</value>
   <comment>UNI</comment>
 </data>
 <data name="EquipSlotsUi.Tag.Suit" xml:space="preserve">
-  <value>SUIT</value>
+  <value>外衣</value>
   <comment>SUIT</comment>
 </data>
 <data name="EquipSlotsUi.Tag.Head" xml:space="preserve">
-  <value>HEAD</value>
+  <value>頭部</value>
   <comment>HEAD</comment>
 </data>
 <data name="EquipSlotsUi.Tag.Shoes" xml:space="preserve">
-  <value>SHOE</value>
+  <value>鞋子</value>
   <comment>SHOE</comment>
 </data>
 <data name="EquipSlotsUi.Tag.Gloves" xml:space="preserve">
-  <value>GLOV</value>
+  <value>手套</value>
   <comment>GLOV</comment>
 </data>
 <data name="EquipSlotsUi.Tag.Eyes" xml:space="preserve">
-  <value>EYES</value>
+  <value>眼部</value>
   <comment>EYES</comment>
 </data>
 <data name="EquipSlotsUi.Tag.Mask" xml:space="preserve">
-  <value>MASK</value>
+  <value>口部</value>
   <comment>MASK</comment>
 </data>
 <data name="EquipSlotsUi.Tag.EarLeft" xml:space="preserve">
-  <value>EARL</value>
+  <value>左耳</value>
   <comment>EARL</comment>
 </data>
 <data name="EquipSlotsUi.Tag.EarRight" xml:space="preserve">
-  <value>EARR</value>
+  <value>右耳</value>
   <comment>EARR</comment>
 </data>
 <data name="EquipSlotsUi.Tag.Belt" xml:space="preserve">
-  <value>BELT</value>
+  <value>腰帶</value>
   <comment>BELT</comment>
 </data>
 <data name="EquipSlotsUi.Tag.Back" xml:space="preserve">
-  <value>BACK</value>
+  <value>背部</value>
   <comment>BACK</comment>
 </data>
 <data name="EquipSlotsUi.Tag.Id" xml:space="preserve">
@@ -3320,15 +3320,15 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>ID</comment>
 </data>
 <data name="EquipSlotsUi.Tag.SuitStorage" xml:space="preserve">
-  <value>S.ST</value>
+  <value>外衣儲物</value>
   <comment>S.ST</comment>
 </data>
 <data name="EquipSlotsUi.Tag.PocketLeft" xml:space="preserve">
-  <value>P.L</value>
+  <value>左口袋</value>
   <comment>P.L</comment>
 </data>
 <data name="EquipSlotsUi.Tag.PocketRight" xml:space="preserve">
-  <value>P.R</value>
+  <value>右口袋</value>
   <comment>P.R</comment>
 </data>
 <data name="EquipSlotsUi.Tag.Unknown" xml:space="preserve">
@@ -3336,55 +3336,55 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>?</comment>
 </data>
 <data name="EquipSlotsUi.Name.RightHand" xml:space="preserve">
-  <value>Right Hand</value>
+  <value>右手</value>
   <comment>Right Hand</comment>
 </data>
 <data name="EquipSlotsUi.Name.LeftHand" xml:space="preserve">
-  <value>Left Hand</value>
+  <value>左手</value>
   <comment>Left Hand</comment>
 </data>
 <data name="EquipSlotsUi.Name.Uniform" xml:space="preserve">
-  <value>Uniform</value>
+  <value>制服</value>
   <comment>Uniform</comment>
 </data>
 <data name="EquipSlotsUi.Name.Suit" xml:space="preserve">
-  <value>Suit</value>
+  <value>外衣</value>
   <comment>Suit</comment>
 </data>
 <data name="EquipSlotsUi.Name.Head" xml:space="preserve">
-  <value>Head</value>
+  <value>頭部</value>
   <comment>Head</comment>
 </data>
 <data name="EquipSlotsUi.Name.Shoes" xml:space="preserve">
-  <value>Shoes</value>
+  <value>鞋子</value>
   <comment>Shoes</comment>
 </data>
 <data name="EquipSlotsUi.Name.Gloves" xml:space="preserve">
-  <value>Gloves</value>
+  <value>手套</value>
   <comment>Gloves</comment>
 </data>
 <data name="EquipSlotsUi.Name.Eyes" xml:space="preserve">
-  <value>Eyes</value>
+  <value>眼部</value>
   <comment>Eyes</comment>
 </data>
 <data name="EquipSlotsUi.Name.Mask" xml:space="preserve">
-  <value>Mask</value>
+  <value>口部</value>
   <comment>Mask</comment>
 </data>
 <data name="EquipSlotsUi.Name.EarLeft" xml:space="preserve">
-  <value>Left Ear</value>
+  <value>左耳</value>
   <comment>Left Ear</comment>
 </data>
 <data name="EquipSlotsUi.Name.EarRight" xml:space="preserve">
-  <value>Right Ear</value>
+  <value>右耳</value>
   <comment>Right Ear</comment>
 </data>
 <data name="EquipSlotsUi.Name.Belt" xml:space="preserve">
-  <value>Belt</value>
+  <value>腰帶</value>
   <comment>Belt</comment>
 </data>
 <data name="EquipSlotsUi.Name.Back" xml:space="preserve">
-  <value>Back</value>
+  <value>背部</value>
   <comment>Back</comment>
 </data>
 <data name="EquipSlotsUi.Name.Id" xml:space="preserve">
@@ -3392,15 +3392,15 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>ID</comment>
 </data>
 <data name="EquipSlotsUi.Name.SuitStorage" xml:space="preserve">
-  <value>Suit Storage</value>
+  <value>外衣儲物空間</value>
   <comment>Suit Storage</comment>
 </data>
 <data name="EquipSlotsUi.Name.PocketLeft" xml:space="preserve">
-  <value>Left Pocket</value>
+  <value>左口袋</value>
   <comment>Left Pocket</comment>
 </data>
 <data name="EquipSlotsUi.Name.PocketRight" xml:space="preserve">
-  <value>Right Pocket</value>
+  <value>右口袋</value>
   <comment>Right Pocket</comment>
 </data>
 <data name="EquipSlotsUi.Name.Unknown" xml:space="preserve">
@@ -3408,39 +3408,39 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>?</comment>
 </data>
 <data name="EquipSlotsUi.Reason.Occupied" xml:space="preserve">
-  <value>occupied</value>
+  <value>已穿戴</value>
   <comment>occupied</comment>
 </data>
 <data name="EquipSlotsUi.Reason.NeedsUniform" xml:space="preserve">
-  <value>needs a uniform</value>
+  <value>需要制服</value>
   <comment>needs a uniform</comment>
 </data>
 <data name="EquipSlotsUi.Reason.NeedsSuit" xml:space="preserve">
-  <value>needs a suit</value>
+  <value>需要外衣</value>
   <comment>needs a suit</comment>
 </data>
 <data name="EquipSlotsUi.Reason.TooBig" xml:space="preserve">
-  <value>too big for a pocket</value>
+  <value>放不進口袋</value>
   <comment>too big for a pocket</comment>
 </data>
 <data name="EquipSlotsUi.Reason.NotAllowedBySuit" xml:space="preserve">
-  <value>the suit cannot hold that</value>
+  <value>外衣裝不了</value>
   <comment>the suit cannot hold that</comment>
 </data>
 <data name="EquipSlotsUi.Reason.WrongSlot" xml:space="preserve">
-  <value>cannot be worn there</value>
+  <value>不能穿在那</value>
   <comment>cannot be worn there</comment>
 </data>
 <data name="EquipSlotsUi.Reason.HandBlocked" xml:space="preserve">
-  <value>held two-handed</value>
+  <value>兩手握著</value>
   <comment>held two-handed</comment>
 </data>
 <data name="EquipSlotsUi.Reason.OutOfReach" xml:space="preserve">
-  <value>out of reach</value>
+  <value>太遠了</value>
   <comment>out of reach</comment>
 </data>
 <data name="EquipSlotsUi.Reason.HandMissing" xml:space="preserve">
-  <value>hand is severed</value>
+  <value>手斷掉了</value>
   <comment>hand is severed</comment>
 </data>
 <data name="EquipSlotsUi.Reason.None" xml:space="preserve">
@@ -3448,43 +3448,43 @@ The file is looked up beside this language file first, then under the game's Con
   <comment></comment>
 </data>
 <data name="StorageUi.Reason.BlockedOrNotAllowed" xml:space="preserve">
-  <value>it does not fit in there</value>
+  <value>放不進那裡</value>
   <comment>it does not fit in there</comment>
 </data>
 <data name="StorageUi.Reason.TooBig" xml:space="preserve">
-  <value>too big for it</value>
+  <value>太大了</value>
   <comment>too big for it</comment>
 </data>
 <data name="StorageUi.Reason.NestedStorage" xml:space="preserve">
-  <value>no storage inside storage</value>
+  <value>沒有空間了</value>
   <comment>no storage inside storage</comment>
 </data>
 <data name="StorageUi.Reason.Full" xml:space="preserve">
-  <value>it is full</value>
+  <value>滿了</value>
   <comment>it is full</comment>
 </data>
 <data name="StorageUi.Reason.GunSlotFull" xml:space="preserve">
-  <value>it already has a gun</value>
+  <value>已經有把槍了</value>
   <comment>it already has a gun</comment>
 </data>
 <data name="StorageUi.Reason.ReservoirFull" xml:space="preserve">
-  <value>it already has a canister</value>
+  <value>已經有罐子了</value>
   <comment>it already has a canister</comment>
 </data>
 <data name="StorageUi.Reason.SamePanel" xml:space="preserve">
-  <value>no reordering here</value>
+  <value>沒有順序變動</value>
   <comment>no reordering here</comment>
 </data>
 <data name="StorageUi.Reason.OutOfReach" xml:space="preserve">
-  <value>out of reach</value>
+  <value>太遠了</value>
   <comment>out of reach</comment>
 </data>
 <data name="StorageUi.Reason.OneWay" xml:space="preserve">
-  <value>nothing fits back in</value>
+  <value>沒有地方能放</value>
   <comment>nothing fits back in</comment>
 </data>
 <data name="StorageUi.Reason.LidClosed" xml:space="preserve">
-  <value>its lid is closed</value>
+  <value>蓋子蓋著</value>
   <comment>its lid is closed</comment>
 </data>
 <data name="StorageUi.Reason.None" xml:space="preserve">
@@ -3492,71 +3492,71 @@ The file is looked up beside this language file first, then under the game's Con
   <comment></comment>
 </data>
 <data name="StorageUi.Hint.HoldsACanister" xml:space="preserve">
-  <value>holds a canister</value>
+  <value>裝有罐子</value>
   <comment>holds a canister</comment>
 </data>
 <data name="StorageUi.Hint.HoldsAGun" xml:space="preserve">
-  <value>holds a gun</value>
+  <value>裝有槍枝</value>
   <comment>holds a gun</comment>
 </data>
 <data name="StorageUi.Verb.TakeOne" xml:space="preserve">
-  <value>take one</value>
+  <value>拿一個</value>
   <comment>take one</comment>
 </data>
 <data name="StorageUi.Label.Toggle" xml:space="preserve">
-  <value>toggle</value>
+  <value>切換</value>
   <comment>toggle</comment>
 </data>
 <data name="EquipRequestUi.FallbackActor" xml:space="preserve">
-  <value>Someone</value>
+  <value>某人</value>
   <comment>Someone</comment>
 </data>
 <data name="EquipRequestUi.Title" xml:space="preserve">
-  <value>EQUIP REQUEST</value>
+  <value>裝備請求</value>
   <comment>EQUIP REQUEST</comment>
 </data>
 <data name="EquipRequestUi.WantsToPutTemplate" xml:space="preserve">
-  <value>{ACTOR} wants to put {ITEM} in your {SLOT}</value>
+  <value>{ACTOR} 想要將 {ITEM} 放進你的 {SLOT}</value>
   <comment>{ACTOR} wants to put {ITEM} in your {SLOT}</comment>
 </data>
 <data name="EquipRequestUi.ButtonAccept" xml:space="preserve">
-  <value>Accept</value>
+  <value>接受</value>
   <comment>Accept</comment>
 </data>
 <data name="EquipRequestUi.ButtonDecline" xml:space="preserve">
-  <value>Decline</value>
+  <value>拒絕</value>
   <comment>Decline</comment>
 </data>
 <data name="GunHud.Tooltip.Cycle" xml:space="preserve">
-  <value>Cycle</value>
+  <value>循環</value>
   <comment>Cycle</comment>
 </data>
 <data name="GunHud.Tooltip.Use" xml:space="preserve">
-  <value>Use</value>
+  <value>使用</value>
   <comment>Use</comment>
 </data>
 <data name="GunHud.Tooltip.Toggle" xml:space="preserve">
-  <value>Toggle</value>
+  <value>切換</value>
   <comment>Toggle</comment>
 </data>
 <data name="GunHud.FoldItAway" xml:space="preserve">
-  <value>Fold it away</value>
+  <value>折疊</value>
   <comment>Fold it away</comment>
 </data>
 <data name="GunHud.ExtendIt" xml:space="preserve">
-  <value>Extend it</value>
+  <value>展開</value>
   <comment>Extend it</comment>
 </data>
 <data name="GunHud.Firemode.Semi" xml:space="preserve">
-  <value>SEMI</value>
+  <value>半自動</value>
   <comment>SEMI</comment>
 </data>
 <data name="GunHud.Firemode.Burst" xml:space="preserve">
-  <value>BURST</value>
+  <value>點放</value>
   <comment>BURST</comment>
 </data>
 <data name="GunHud.Firemode.Auto" xml:space="preserve">
-  <value>AUTO</value>
+  <value>全自動</value>
   <comment>AUTO</comment>
 </data>
 <data name="GunHud.Firemode.Unknown" xml:space="preserve">
@@ -3564,55 +3564,55 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>-</comment>
 </data>
 <data name="GunHud.Safety.IgniteOff" xml:space="preserve">
-  <value>IGNITE OFF</value>
+  <value>點火 OFF</value>
   <comment>IGNITE OFF</comment>
 </data>
 <data name="GunHud.Safety.IgniteOn" xml:space="preserve">
-  <value>IGNITE ON</value>
+  <value>點火 ON</value>
   <comment>IGNITE ON</comment>
 </data>
 <data name="GunHud.Safety.SafetyOn" xml:space="preserve">
-  <value>SAFETY ON</value>
+  <value>保險 ON</value>
   <comment>SAFETY ON</comment>
 </data>
 <data name="GunHud.Safety.SafetyOff" xml:space="preserve">
-  <value>SAFETY OFF</value>
+  <value>保險 OFF</value>
   <comment>SAFETY OFF</comment>
 </data>
 <data name="GunHud.Fuse.Impact" xml:space="preserve">
-  <value>IMPACT FUSE</value>
+  <value>衝擊引信</value>
   <comment>IMPACT FUSE</comment>
 </data>
 <data name="GunHud.Fuse.Timed" xml:space="preserve">
-  <value>TIMED FUSE</value>
+  <value>定時引信</value>
   <comment>TIMED FUSE</comment>
 </data>
 <data name="GunHud.Nvg.On" xml:space="preserve">
-  <value>NVG ON</value>
+  <value>夜視鏡 ON</value>
   <comment>NVG ON</comment>
 </data>
 <data name="GunHud.Nvg.Off" xml:space="preserve">
-  <value>NVG OFF</value>
+  <value>夜視鏡 OFF</value>
   <comment>NVG OFF</comment>
 </data>
 <data name="GunHud.UniqueAction.Pump" xml:space="preserve">
-  <value>PUMP</value>
+  <value>上膛</value>
   <comment>PUMP</comment>
 </data>
 <data name="GunHud.UniqueAction.Rack" xml:space="preserve">
-  <value>RACK</value>
+  <value>拉槍機</value>
   <comment>RACK</comment>
 </data>
 <data name="GunHud.Cylinder.Open" xml:space="preserve">
-  <value>CYL OPEN</value>
+  <value>彈巢打開</value>
   <comment>CYL OPEN</comment>
 </data>
 <data name="GunHud.Cylinder.Closed" xml:space="preserve">
-  <value>CYL CLOSED</value>
+  <value>彈巢打開</value>
   <comment>CYL CLOSED</comment>
 </data>
 <data name="ToggleUi.Title" xml:space="preserve">
-  <value>TOGGLES</value>
+  <value>切換</value>
   <comment>TOGGLES</comment>
 </data>
 <data name="ToggleUi.Chip.Climb" xml:space="preserve">
@@ -3632,7 +3632,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>WALK</comment>
 </data>
 <data name="IntentUi.Title" xml:space="preserve">
-  <value>INTENT</value>
+  <value>意圖</value>
   <comment>INTENT</comment>
 </data>
 <data name="IntentUi.Chip.Help" xml:space="preserve">
@@ -3652,47 +3652,47 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>HARM</comment>
 </data>
 <data name="PaperDollUi.Title" xml:space="preserve">
-  <value>AIM ZONE</value>
+  <value>瞄準區域</value>
   <comment>AIM ZONE</comment>
 </data>
 <data name="TransfusionModeChip.Draw" xml:space="preserve">
-  <value>DRAW</value>
+  <value>抽取</value>
   <comment>DRAW</comment>
 </data>
 <data name="TransfusionModeChip.Inject" xml:space="preserve">
-  <value>INJECT</value>
+  <value>注入</value>
   <comment>INJECT</comment>
 </data>
 <data name="TrolleyUi.Adjacent" xml:space="preserve">
-  <value>ADJACENT</value>
+  <value>周圍</value>
   <comment>ADJACENT</comment>
 </data>
 <data name="TrolleyUi.Water" xml:space="preserve">
-  <value>WATER</value>
+  <value>水</value>
   <comment>WATER</comment>
 </data>
 <data name="TrolleyUi.Empty" xml:space="preserve">
-  <value>EMPTY</value>
+  <value>空</value>
   <comment>EMPTY</comment>
 </data>
 <data name="TrolleyUi.Reason.DoesNotFit" xml:space="preserve">
-  <value>it does not fit in there</value>
+  <value>放不進去</value>
   <comment>it does not fit in there</comment>
 </data>
 <data name="TrolleyUi.Reason.MopSoaked" xml:space="preserve">
-  <value>the mop is soaked</value>
+  <value>拖把沾水了</value>
   <comment>the mop is soaked</comment>
 </data>
 <data name="TrolleyUi.Reason.BucketOutOfWater" xml:space="preserve">
-  <value>the bucket is out of water</value>
+  <value>水桶沒水了</value>
   <comment>the bucket is out of water</comment>
 </data>
 <data name="TrolleyUi.Reason.TakeBucketToRefill" xml:space="preserve">
-  <value>take the bucket out to refill it</value>
+  <value>將水桶拿出來裝水</value>
   <comment>take the bucket out to refill it</comment>
 </data>
 <data name="TrolleyUi.Wet.Template" xml:space="preserve">
-  <value>wet {ITEM}</value>
+  <value>弄濕 {ITEM}</value>
   <comment>wet {ITEM}</comment>
 </data>
 <data name="SleeperRowText.Unit.Centi" xml:space="preserve">
@@ -3700,39 +3700,39 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>u</comment>
 </data>
 <data name="SleeperRowText.RemainingTemplate" xml:space="preserve">
-  <value>{WHOLE}.{TENTHS}u remaining in patient</value>
+  <value>病人體內剩餘 {WHOLE}.{TENTHS}u</value>
   <comment>{WHOLE}.{TENTHS}u remaining in patient</comment>
 </data>
 <data name="SleeperRowText.Banner.Crisis" xml:space="preserve">
-  <value>PATIENT CRITICAL - emergency chemicals only</value>
+  <value>病人命危 - 只能使用緊急化學物</value>
   <comment>PATIENT CRITICAL - emergency chemicals only</comment>
 </data>
 <data name="SleeperRowText.Banner.Dead" xml:space="preserve">
-  <value>PATIENT DECEASED - no life to preserve</value>
+  <value>病人死亡 - 無法救活</value>
   <comment>PATIENT DECEASED - no life to preserve</comment>
 </data>
 <data name="SleeperRowText.Banner.Empty" xml:space="preserve">
-  <value>NO OCCUPANT</value>
+  <value>沒有病人</value>
   <comment>NO OCCUPANT</comment>
 </data>
 <data name="SleeperRowText.State.Dead" xml:space="preserve">
-  <value>*DEAD*</value>
+  <value>*死亡*</value>
   <comment>*DEAD*</comment>
 </data>
 <data name="SleeperRowText.State.Critical" xml:space="preserve">
-  <value>CRITICAL</value>
+  <value>命危</value>
   <comment>CRITICAL</comment>
 </data>
 <data name="SleeperRowText.State.Stable" xml:space="preserve">
-  <value>STABLE</value>
+  <value>穩定</value>
   <comment>STABLE</comment>
 </data>
 <data name="SleeperRowText.Dialysis.Active" xml:space="preserve">
-  <value>ACTIVE</value>
+  <value>啟動</value>
   <comment>ACTIVE</comment>
 </data>
 <data name="SleeperRowText.Dialysis.Inactive" xml:space="preserve">
-  <value>INACTIVE</value>
+  <value>未啟動</value>
   <comment>INACTIVE</comment>
 </data>
 <data name="SleeperUi.Dose.Small" xml:space="preserve">
@@ -3744,71 +3744,71 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>+10u</comment>
 </data>
 <data name="SleeperUi.Dialysis.Start" xml:space="preserve">
-  <value>Start Dialysis</value>
+  <value>開始透析</value>
   <comment>Start Dialysis</comment>
 </data>
 <data name="SleeperUi.Dialysis.Stop" xml:space="preserve">
-  <value>Stop Dialysis</value>
+  <value>停止透析</value>
   <comment>Stop Dialysis</comment>
 </data>
 <data name="SleeperUi.EjectOccupant" xml:space="preserve">
-  <value>Eject Occupant</value>
+  <value>彈出病人</value>
   <comment>Eject Occupant</comment>
 </data>
 <data name="SleeperUi.Section.Occupant" xml:space="preserve">
-  <value>OCCUPANT</value>
+  <value>病人</value>
   <comment>OCCUPANT</comment>
 </data>
 <data name="SleeperUi.Section.Chemicals" xml:space="preserve">
-  <value>CHEMICALS</value>
+  <value>化學物</value>
   <comment>CHEMICALS</comment>
 </data>
 <data name="SleeperUi.Section.Dialysis" xml:space="preserve">
-  <value>DIALYSIS</value>
+  <value>透析</value>
   <comment>DIALYSIS</comment>
 </data>
 <data name="SleeperUi.Section.Controls" xml:space="preserve">
-  <value>CONTROLS</value>
+  <value>操控</value>
   <comment>CONTROLS</comment>
 </data>
 <data name="SleeperUi.Row.Name" xml:space="preserve">
-  <value>Name</value>
+  <value>姓名</value>
   <comment>Name</comment>
 </data>
 <data name="SleeperUi.Row.Brute" xml:space="preserve">
-  <value>Brute</value>
+  <value>外傷</value>
   <comment>Brute</comment>
 </data>
 <data name="SleeperUi.Row.Burn" xml:space="preserve">
-  <value>Burn</value>
+  <value>燒傷</value>
   <comment>Burn</comment>
 </data>
 <data name="SleeperUi.Row.Toxin" xml:space="preserve">
-  <value>Toxin</value>
+  <value>毒素</value>
   <comment>Toxin</comment>
 </data>
 <data name="SleeperUi.Row.Oxygen" xml:space="preserve">
-  <value>Oxygen</value>
+  <value>氧氣</value>
   <comment>Oxygen</comment>
 </data>
 <data name="SleeperUi.Row.Blood" xml:space="preserve">
-  <value>Blood</value>
+  <value>血</value>
   <comment>Blood</comment>
 </data>
 <data name="SleeperUi.NoChemicalsOffered" xml:space="preserve">
-  <value>no chemicals offered</value>
+  <value>未提供化學物</value>
   <comment>no chemicals offered</comment>
 </data>
 <data name="SleeperUi.AutoEjectDead" xml:space="preserve">
-  <value>Auto-eject dead</value>
+  <value>自動注射死者</value>
   <comment>Auto-eject dead</comment>
 </data>
 <data name="SleeperUi.Tag.Overdose" xml:space="preserve">
-  <value>OD</value>
+  <value>藥物過量</value>
   <comment>OD</comment>
 </data>
 <data name="SleeperUi.Tag.Caution" xml:space="preserve">
-  <value>CAUTION</value>
+  <value>警告</value>
   <comment>CAUTION</comment>
 </data>
 <data name="ApcWiresUi.Title.Template" xml:space="preserve">
@@ -47912,7 +47912,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Glass.Bottle.Dexalin.DisplayName" xml:space="preserve">
-  <value>Dexalin bottle</value>
+  <value>得咳嗽靈(Dexalin) bottle</value>
   <comment>Dexalin bottle</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Glass.Bottle.Dexalin.Verb.PickUp" xml:space="preserve">
@@ -47944,7 +47944,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Glass.Bottle.Peridaxon.DisplayName" xml:space="preserve">
-  <value>Peridaxon bottle</value>
+  <value>沛力達散(Peridaxon) bottle</value>
   <comment>Peridaxon bottle</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Glass.Bottle.Peridaxon.Verb.PickUp" xml:space="preserve">
@@ -48280,7 +48280,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Dexalinp.DisplayName" xml:space="preserve">
-  <value>dexalin plus autoinjector</value>
+  <value>得咳嗽靈(Dexalin) plus autoinjector</value>
   <comment>dexalin plus autoinjector</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Dexalinp.Verb.PickUp" xml:space="preserve">
@@ -48288,7 +48288,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Dexalinp.Spent.DisplayName" xml:space="preserve">
-  <value>dexalin plus autoinjector</value>
+  <value>得咳嗽靈(Dexalin) plus autoinjector</value>
   <comment>dexalin plus autoinjector</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Dexalinp.Spent.Verb.PickUp" xml:space="preserve">
@@ -48296,7 +48296,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Dexalinp.Uses1.DisplayName" xml:space="preserve">
-  <value>dexalin plus autoinjector</value>
+  <value>得咳嗽靈(Dexalin) plus autoinjector</value>
   <comment>dexalin plus autoinjector</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Dexalinp.Uses1.Verb.PickUp" xml:space="preserve">
@@ -48304,7 +48304,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Dexalinp.Uses2.DisplayName" xml:space="preserve">
-  <value>dexalin plus autoinjector</value>
+  <value>得咳嗽靈(Dexalin) plus autoinjector</value>
   <comment>dexalin plus autoinjector</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Dexalinp.Uses2.Verb.PickUp" xml:space="preserve">
@@ -53240,7 +53240,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Dexalin.DisplayName" xml:space="preserve">
-  <value>Dexalin pill bottle</value>
+  <value>得咳嗽靈(Dexalin) pill bottle</value>
   <comment>Dexalin pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Dexalin.Verb.PickUp" xml:space="preserve">
@@ -53248,7 +53248,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Dexalin.Open.DisplayName" xml:space="preserve">
-  <value>Dexalin pill bottle</value>
+  <value>得咳嗽靈(Dexalin) pill bottle</value>
   <comment>Dexalin pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Dexalin.Open.Verb.PickUp" xml:space="preserve">
@@ -53448,7 +53448,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Peridaxon.DisplayName" xml:space="preserve">
-  <value>Peridaxon pill bottle</value>
+  <value>沛力達散(Peridaxon) pill bottle</value>
   <comment>Peridaxon pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Peridaxon.Verb.PickUp" xml:space="preserve">
@@ -53456,7 +53456,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Peridaxon.Open.DisplayName" xml:space="preserve">
-  <value>Peridaxon pill bottle</value>
+  <value>沛力達散(Peridaxon) pill bottle</value>
   <comment>Peridaxon pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Peridaxon.Open.Verb.PickUp" xml:space="preserve">
@@ -74204,11 +74204,11 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Dermaline</comment>
 </data>
 <data name="Reagent.Medical.Dexalin.Name" xml:space="preserve">
-  <value>Dexalin</value>
+  <value>得咳嗽靈(Dexalin)</value>
   <comment>Dexalin</comment>
 </data>
 <data name="Reagent.Medical.Dexalinp.Name" xml:space="preserve">
-  <value>Dexalin Plus</value>
+  <value>得咳嗽靈(Dexalin) Plus</value>
   <comment>Dexalin Plus</comment>
 </data>
 <data name="Reagent.Medical.Ethylredoxrazine.Name" xml:space="preserve">
@@ -74252,7 +74252,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Paracetamol</comment>
 </data>
 <data name="Reagent.Medical.Peridaxon.Name" xml:space="preserve">
-  <value>Peridaxon</value>
+  <value>沛力達散(Peridaxon)</value>
   <comment>Peridaxon</comment>
 </data>
 <data name="Reagent.Medical.Rezadone.Name" xml:space="preserve">
