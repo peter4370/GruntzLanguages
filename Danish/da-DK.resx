@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Parsed values are included in capitals surrounded by braces, such as {NAME}.
+The contents of the braces themselves needs to be preserved, but they may freely be moved around within the string.
+The comment field includes the default english string at the time of file generation so is useful for determining when a string has changed.
+The filename is used for the locale Code according to ISO 639-1. By default the language name is taken from this. To override this, enter an entry for 'Language'.
+The 'FontMain' and 'FontSecondary' values are special entries naming a font file (.ttf) that replaces the game's pixel font (FontMain) or its text font (FontSecondary) while this language is active, for scripts the defaults do not cover.
+The file is looked up beside this language file first, then under the game's Content/Fonts. Leave both empty to keep the game's fonts.--><root>
+  <!-- 
+  Microsoft ResX Schema 
+
+  Version 2.0
+
+  The primary goals of this format is to allow a simple XML format 
+  that is mostly human readable. The generation and parsing of the 
+  various data types are done through the TypeConverter classes 
+  associated with the data types.
+
+  Example:
+
+  ... ado.net/XML headers & schema ...
+  <resheader name="resmimetype">text/microsoft-resx</resheader>
+  <resheader name="version">2.0</resheader>
+  <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+  <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+  <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+  <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+  <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+      <value>[base64 mime encoded serialized .NET Framework object]</value>
+  </data>
+  <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+      <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+      <comment>This is a comment</comment>
+  </data>
+
+  There are any number of "resheader" rows that contain simple 
+  name/value pairs.
+
+  Each data row contains a name, and value. The row also contains a 
+  type or mimetype. Type corresponds to a .NET class that support 
+  text/value conversion through the TypeConverter architecture. 
+  Classes that don't support this are serialized and stored with the 
+  mimetype set.
+
+  The mimetype is used for serialized objects, and tells the 
+  ResXResourceReader how to depersist the object. This is currently not 
+  extensible. For a given mimetype the value must be set accordingly:
+
+  Note - application/x-microsoft.net.object.binary.base64 is the format 
+  that the ResXResourceWriter will generate, however the reader can 
+  read any of the formats listed below.
+
+  mimetype: application/x-microsoft.net.object.binary.base64
+  value   : The object must be serialized with 
+          : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+          : and then encoded with base64 encoding.
+
+  mimetype: application/x-microsoft.net.object.soap.base64
+  value   : The object must be serialized with 
+          : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+          : and then encoded with base64 encoding.
+  mimetype: application/x-microsoft.net.object.bytearray.base64
+  value   : The object must be serialized into a byte array 
+          : using a System.ComponentModel.TypeConverter
+          : and then encoded with base64 encoding.
+  -->
+<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:element name="root" msdata:IsDataSet="true">
+    <xsd:complexType>
+      <xsd:choice maxOccurs="unbounded">
+        <xsd:element name="metadata">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="value" type="xsd:string" minOccurs="0" />
+            </xsd:sequence>
+            <xsd:attribute name="name" use="required" type="xsd:string" />
+            <xsd:attribute name="type" type="xsd:string" />
+            <xsd:attribute name="mimetype" type="xsd:string" />
+            <xsd:attribute ref="xml:space" />
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="assembly">
+          <xsd:complexType>
+            <xsd:attribute name="alias" type="xsd:string" />
+            <xsd:attribute name="name" type="xsd:string" />
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="data">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+            </xsd:sequence>
+            <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            <xsd:attribute ref="xml:space" />
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="resheader">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+            </xsd:sequence>
+            <xsd:attribute name="name" type="xsd:string" use="required" />
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:choice>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
+<resheader name="resmimetype">
+  <value>text/microsoft-resx</value>
+</resheader>
+<resheader name="version">
+  <value>2.0</value>
+</resheader>
+<resheader name="reader">
+  <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="writer">
+  <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+
+<data name="FontMain" xml:space="preserve">
+  <value></value>
+</data>
+<data name="FontSecondary" xml:space="preserve">
+  <value></value>
+</data>
+<data name="Language" xml:space="preserve">
+  <value>Dansk</value>
+</data>
+<data name="MainMenu.FooterNet" xml:space="preserve">
+  <value>W-Y KOLONINET</value>
+  <comment>W-Y COLONY NET</comment>
+</data>
+<data name="MainMenu.JoinTitle" xml:space="preserve">
+  <value>DELTAG I SPIL</value>
+  <comment>JOIN GAME</comment>
+</data>
+<data name="MainMenu.AddressLabel" xml:space="preserve">
+  <value>ADRESSE</value>
+  <comment>ADDRESS</comment>
+</data>
+<data name="MainMenu.OperativeLabel" xml:space="preserve">
+  <value>OPERATØR</value>
+  <comment>OPERATIVE</comment>
+</data>
+<data name="MainMenu.CancelLabel" xml:space="preserve">
+  <value>ANNULLER</value>
+  <comment>CANCEL</comment>
+</data>
+<data name="MainMenu.ConnectLabel" xml:space="preserve">
+  <value>FORBIND</value>
+  <comment>CONNECT</comment>
+</data>
+<data name="MainMenu.JoinRefusalLine" xml:space="preserve">
+  <value>FORBINDELSE AFVIST // TJEK ADRESSEN</value>
+  <comment>LINK REFUSED // CHECK ADDRESS</comment>
+</data>
+<data name="MainMenu.SurveyRefusalLine" xml:space="preserve">
+  <value>OPMÅLING OFFLINE // INGEN KORTDATA</value>
+  <comment>SURVEY OFFLINE // NO MAP DATA</comment>
+</data>
+<data name="MainMenu.PickerTitle" xml:space="preserve">
+  <value>FORHÅNDSVIS KORT</value>
+  <comment>PREVIEW MAP</comment>
+</data>
+<data name="MainMenu.PickerSubLine" xml:space="preserve">
+  <value>// VÆLG EN KOLONI, DER SKAL OPMÅLES //</value>
+  <comment>// SELECT A COLONY TO SURVEY //</comment>
+</data>
+<data name="MainMenu.PickerLoadedTag" xml:space="preserve">
+  <value>INDLÆST</value>
+  <comment>LOADED</comment>
+</data>
+<data name="MainMenu.PickerNoRecord" xml:space="preserve">
+  <value>~INGEN OPMÅLINGSDATA</value>
+  <comment>~NO SURVEY RECORD</comment>
+</data>
+<data name="MainMenu.MainSubtitle" xml:space="preserve">
+  <value>HOVEDMENU</value>
+  <comment>MAIN MENU</comment>
+</data>
+<data name="MainMenu.SystemSubtitle" xml:space="preserve">
+  <value>SYSTEMMENU</value>
+  <comment>SYSTEM MENU</comment>
+</data>
+<data name="MainMenu.SystemStatusIdle" xml:space="preserve">
+  <value>FORBINDELSE ETABLERET // OPERATØR I FELTEN</value>
+  <comment>LINK ESTABLISHED // OPERATIVE IN FIELD</comment>
+</data>
+<data name="MainMenu.DisconnectTitle" xml:space="preserve">
+  <value>AFBRYD FORBINDELSE</value>
+  <comment>DISCONNECT</comment>
+</data>
+<data name="MainMenu.DisconnectLine" xml:space="preserve">
+  <value>FORLAD SERVEREN OG VEND TILBAGE TIL MENUEN?</value>
+  <comment>LEAVE THE SERVER AND RETURN TO THE MENU?</comment>
+</data>
+<data name="MainMenu.DisconnectConfirmLabel" xml:space="preserve">
+  <value>AFBRYD FORBINDELSE</value>
+  <comment>DISCONNECT</comment>
+</data>
+<data name="MainMenu.QuitTitle" xml:space="preserve">
+  <value>AFSLUT SPIL</value>
+  <comment>QUIT GAME</comment>
+</data>
+<data name="MainMenu.QuitLine" xml:space="preserve">
+  <value>LUK NED OG GÅ TIL SKRIVEBORDET?</value>
+  <comment>POWER DOWN AND EXIT TO DESKTOP?</comment>
+</data>
+<data name="MainMenu.QuitConfirmLabel" xml:space="preserve">
+  <value>AFSLUT</value>
+  <comment>QUIT</comment>
+</data>
+<data name="MainMenu.MismatchTitle" xml:space="preserve">
+  <value>VERSIONSUOVERENSSTEMMELSE</value>
+  <comment>VERSION MISMATCH</comment>
+</data>
+<data name="MainMenu.MismatchLine" xml:space="preserve">
+  <value>DENNE SPILVERSION ER FORÆLDET. ENTEN SKAL SERVEREN ELLER KLIENTEN OPDATERE TIL EN MATCHENDE VERSION.</value>
+  <comment>THIS GAME VERSION IS OUT OF DATE. EITHER THE SERVER OR THE CLIENT NEEDS TO UPDATE TO A MATCHING VERSION.</comment>
+</data>
+<data name="MainMenu.MismatchLocalBuild" xml:space="preserve">
+  <value>LOKAL VERSION // {BUILD}</value>
+  <comment>LOCAL BUILD // {BUILD}</comment>
+</data>
+<data name="MainMenu.MismatchServerBuild" xml:space="preserve">
+  <value>SERVERVERSION // v{BUILD}</value>
+  <comment>SERVER BUILD // v{BUILD}</comment>
+</data>
+<data name="MainMenu.ContentMismatchTitle" xml:space="preserve">
+  <value>INDHOLDSUOVERENSSTEMMELSE</value>
+  <comment>CONTENT MISMATCH</comment>
+</data>
+<data name="MainMenu.ContentMismatchLine" xml:space="preserve">
+  <value>DIT SPILINDHOLD AFVIGER FRA SERVERENS. TJEK FOR EN OPDATERING ELLER FJERN ÆNDRET INDHOLD.</value>
+  <comment>YOUR GAME CONTENT DIFFERS FROM THE SERVER. CHECK FOR AN UPDATE OR REMOVE MODIFIED CONTENT.</comment>
+</data>
+<data name="MainMenu.BehindLine" xml:space="preserve">
+  <value>DIT SPIL ER BAGUD I FORHOLD TIL SERVEREN. OPDATER SPILLET, OG DELTAG DEREFTER IGEN.</value>
+  <comment>YOUR GAME IS BEHIND THE SERVER. UPDATE THE GAME, THEN JOIN AGAIN.</comment>
+</data>
+<data name="MainMenu.AheadLine" xml:space="preserve">
+  <value>DIT SPIL ER FORUD FOR SERVEREN. VENT PÅ, AT SERVEREN GENSTARTER MED OPDATERINGEN, OG DELTAG DEREFTER IGEN.</value>
+  <comment>YOUR GAME IS AHEAD OF THE SERVER. WAIT FOR THE SERVER TO RESTART WITH THE UPDATE, THEN JOIN AGAIN.</comment>
+</data>
+<data name="MainMenu.CloseLabel" xml:space="preserve">
+  <value>LUK</value>
+  <comment>CLOSE</comment>
+</data>
+</root>
